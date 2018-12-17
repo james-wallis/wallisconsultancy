@@ -1,0 +1,4 @@
+Sitemap: http://www.wallisconsultancy.co.uk/sitemap.xml
+User-agent: *
+Disallow: /forms
+Disallow: /plugins

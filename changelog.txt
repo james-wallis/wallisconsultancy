@@ -1,0 +1,45 @@
+The Project 1.1, 2015-10-10
+----------------------
+
+Important Notice: Update your existing website only if you want to use the new pages and features. You can use HTML Email templates without updating your existing website. Before the update, please backup all your files and your website.
+
+- Added index-beauty.html (Beauty Center Home Page)
+- Added index-blog.html (Blog Home Page)
+- Added index-construction.html (Construction Home Page)
+- Added index-education.html (Education Home Page)
+- Added index-hotel.html (Hotel Home Page)
+- Added email_template_blue.html (HTML email template)
+- Added email_template_brown.html (HTML email template)
+- Added email_template_cool_green.html (HTML email template)
+- Added email_template_dark_cyan.html (HTML email template)
+- Added email_template_dark_red.html (HTML email template)
+- Added email_template_gold.html (HTML email template)
+- Added email_template_gray.html (HTML email template)
+- Added email_template_green.html (HTML email template)
+- Added email_template_light_blue.html (HTML email template)
+- Added email_template_orange.html (HTML email template)
+- Added email_template_pink.html (HTML email template)
+- Added email_template_purple.html (HTML email template)
+- Added email_template_red.html (HTML email template)
+- Added email_template_vivid_red.html (HTML email template)
+- Added features-footers-links.html (New Footer option)
+- Added components-page-loaders.html (New Feature)
+- Added components-page-loaders-2.html (New Feature)
+- Added components-page-loaders-3.html (New Feature)
+- Added components-page-loaders-4.html (New Feature)
+- Added components-page-loaders-5.html (New Feature)
+- Added components-page-loaders-6.html (New Feature)
+- Enabled animations to touch devices
+- Updated bootstrap to 3.3.5
+- Updated fontawesome to 4.4
+
+Affected Files/Folders:
+
+- bootstrap folder
+- css/skins folder
+- css/style.css file
+- fonts/font-awesome folder
+- images folder (55 new image placeholders added)
+- js/template.js file
+- less folder
+- added new plugin pace to plugins folder
