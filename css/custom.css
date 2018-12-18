@@ -104,6 +104,11 @@ body {
     padding-left: 25px;
     text-indent:-25px;
 }
+.terms-list ol p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+}
 .terms-header {
     counter-reset: subsection;
 }

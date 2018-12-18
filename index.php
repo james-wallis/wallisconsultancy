@@ -27,100 +27,25 @@
 		//Switch for different pages
 		switch ($atab)
 		{
-			case "mike-wallis":
-				$title 		= "About Me";
-				$section 	= "About Me";
-				$canonical 	= "/mike-wallis/index.html";
-				$page 		= "include/mike-wallis.php";
+			case "interim-management":
+				$title 		= "Interim Management";
+				$section 	= "Interim Management";
+				$canonical 	= "interim-management/index.html";
+				$page 		= "include/interim-management.php";
 				break;
 
-			case "other-services-interim-management":
-				$title 		= "Intermin Management";
-				$section 	= "Other Services";
-				$canonical 	= "/other-services/interim-management/index.html";
-				$page 		= "include/other-services-interim-management.php";
+			case "business-services":
+				$title 		= "Business Services";
+				$section 	= "Business Services";
+				$canonical 	= "/business-services/index.html";
+				$page 		= "include/business-services.php";
 				break;
 
-			case "other-services-additional":
-				$title 		= "Additional Services";
-				$section 	= "Other Services";
-				$canonical 	= "/other-services/additional-services/index.html";
-				$page 		= "include/other-services-additional.php";
-				break;
-
-			case "other-services-mediation":
+			case "mediation":
 				$title		= "Mediation Services";
-				$section 	= "Other Services";
-				$canonical 	= "/other-services/mediation/index.html";
-				$page 		= "include/other-services-mediation.php";
-				break;
-
-			case "mis-sold-savings-plan":
-				$title 		= "Mis-Sold Savings Plan";
-				$desc 		= "The Quick and Easy way to claim compensation for Mis-Sold Products! FEE only 10% on SUCCESS - NO UP FRONT COSTS. A personal service from a retired senior banker.";
-				$section 	= "Mis-Sold Products";
-				$canonical 	= "/mis-sold-savings-plan/index.html";
-				$page 		= "include/mis-sold-savings-plan.php";
-				break;
-
-			case "mis-sold-packaged-products":
-				$title 		= "Mis-Sold Packaged Products";
-				$desc 		= "The Quick and Easy way to claim compensation for Mis-Sold Products! FEE only 10% on SUCCESS - NO UP FRONT COSTS. A personal service from a retired senior banker.";
-				$section 	= "Mis-Sold Products";
-				$canonical 	= "/mis-sold-packaged-products/index.html";
-				$page 		= "include/mis-sold-packaged-products.php";
-				break;
-
-			case "mis-sold-savings-plan-pricing":
-				$title 		= "Our Pricing";
-				$section 	= "Mis-Sold Products";
-				$canonical 	= "/mis-sold-savings-plan/pricing/index.html";
-				$page 		= "include/mis-sold-savings-plan-pricing.php";
-				break;
-
-			case "mis-sold-products-irsa":
-				$title 		= "Mis-Sold IRSA";
-				$desc 		= "Claim back your IRSA (Interest Rate Swap Arrangement) costs and compensation if your business turnover is E2m (approx £1.6m) FEE only 10% on SUCCESS - NO UP FRONT COSTS.";
-				$section 	= "Mis-Sold Products";
-				$canonical 	= "/mis-sold-products/irsa/index.html";
-				$page 		= "include/mis-sold-products-irsa.php";
-				break;
-
-			case "ppi-service-delivery":
-				$title 		= "Service Delivery";
-				$section 	= "Complaints";
-				$canonical 	= "/ppi-claims/service-delivery/index.html";
-				$robots		= "nofollow";
-				$page 		= "include/ppi-service-delivery.php";
-				break;
-
-			case "ppi-pricing":
-				$title 		= "PPI Pricing";
-				$section 	= "PPI";
-				$canonical 	= "/ppi-claims/pricing/index.html";
-				$page 		= "include/ppi-pricing.php";
-				break;
-
-			case "ppi-claim-now":
-				$title 		= "Claim Now";
-				$section 	= "PPI";
-				$canonical 	= "/submitclaim/index.html";
-				$robots		= "nofollow";
-				$page 		= "include/ppi-claim-now.php";
-				break;
-
-			case "ppi-faq":
-				$title 		= "PPI Frequently Asked Questions";
-				$section 	= "PPI";
-				$canonical 	= "/ppi-claims/faq/index.html";
-				$page 		= "include/ppi-faq.php";
-				break;
-
-			case "mis-sold-faq":
-				$title		= "General Frequently Asked Questions";
-				$section	= "Mis-Sold Products";
-				$canonical = "/mis-sold-products/faq/index.html";
-				$page 		= "include/mis-sold-faq.php";
+				$section 	= "Mediation Services";
+				$canonical 	= "/mediation/index.html";
+				$page 		= "include/mediation.php";
 				break;
 
 			case "terms":
@@ -137,18 +62,24 @@
 				$canonical 	= "/privacynotice/index.html";
 				$page 		= "include/privacynotice.php";
 				break;
-
-			case "submitclaim":
-				$title 		= "Submit Claim";
-				$section 	= "Submit Claim";
-				$canonical 	= "aaaa";
+			
+			case "complaint":
+				$title 		= "Complaint";
+				$section 	= "Complaint";
 				$robots		= "nofollow";
-				$page 		= "include/submit.php";
+				$page 		= "include/complaint.php";
+				break;
+
+			case "message":
+				$title 		= "Contact Mike";
+				$section 	= "Contact Mike";
+				$robots		= "nofollow";
+				$page 		= "include/contact-message.php";
 				break;
 
 			default:
-				$title 		= "No Win, No Fee";
-				$section 	= "Welcome";
+				$title 		= "Home";
+				$section 	= "Home";
 				$canonical 	= "/";
 				$page 		= "include/home.php";
 				break;
@@ -172,13 +103,7 @@
 
 
 			<?php
-				if($section == "About Me" || $section == "Other Services") {
-					include("include/submit-contact-footer.php");
-				}
-				else
-				{
-					include("include/footer.php");
-				}
+				include("include/footer.php");
 			?>
 		</div>
 

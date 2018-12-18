@@ -4,18 +4,28 @@
          <div class="row">
             <div class="posts-block col-lg-8 col-md-8 col-sm-8 col-xs-12">
               <article>
-                 <h2 class="title">The Quick and Easy way to claim your PPI charges back</h2>
-                 <div class="post-content">
-                  <h4><strong>Fee</strong> only 10% on <strong>Success - No up front costs</strong></h4>
-                  <ul class="important-list">
-                    <li>Have you taken out a loan or a credit card?</li>
-                    <li>Did you take out Payment Protection Insurance (PPI)?</li>
-                    <li>Low PPI Fee 10%</li>
-                  </ul>
-                  <p>If you have taken out a loan, mortgage or credit card you are likely to have payment protection insurance (PPI). It has been found that many of these policies have been mis-sold.</p>
-                  <p>If you are satisfied that you have taken out PPI and wish to take your claim forward, complete the detail on <strong>"CLAIM NOW"</strong> below, or for free advice <strong>Call Me</strong>.</p>
-                  <p>The Financial Conduct Authority has now set a <strong>PPI deadline of 29 August 2019</strong> for claims to be received by the firm that sold the product so it is important to start your claim as soon as possible.</p>
-                 </div>
+                 <p>
+                  Mike Wallis is a retired senior banker with experience in both mediation 
+                  and business support. Mike is personable and able to communicate easily 
+                  at all levels. He is particularly highly regarded in family mediation 
+                  having been a family magistrate for nearly 20 years but has experience 
+                  also in neighbourhood and workplace mediation.
+                 </p>
+                  <p>
+                     If you are looking for business support then with 40 years retail 
+                     banking experience you have come to the right place to obtain unbiased, 
+                     professional advice help and support for you and your business.
+                  </p>
+                  <p>
+                     The services offered are set out on this site, as are my terms of business. 
+                     Please let me know how I can help you. Contact me by sending an email with 
+                     a brief description of your needs or give me a call. I will make contact 
+                     with you within 24 hours.
+                  </p>
+                  <p>I look forward to hearing from you and working with you.</p>
+                  <p>Mike Wallis</p>
+                  <p>Wallis Consultancy</p>
+                  <p>BSc (Hons), FCIB, CeMAP</p>
               </article>
             </div>
             <!-- Left Section End -->

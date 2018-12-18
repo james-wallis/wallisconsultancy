@@ -49,7 +49,10 @@
 }
 
 
-#current,.menu ul li a:hover,.menu ul>li:hover>a {
+/* #current,.menu ul li a:hover,.menu ul>li:hover>a {
+    border-bottom: 3px solid #008080;
+} */
+#current,.menu ul>li:hover {
     border-bottom: 3px solid #008080;
 }
 

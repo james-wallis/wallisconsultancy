@@ -8,24 +8,15 @@ RewriteRule ^(.*)$ http://www.wallisconsultancy.co.uk/$1 [L,R=301]
 
 
 RewriteRule ^home/(.*) index.php?atab=home&rewrite=$1
-RewriteRule ^irsa-claims/(.*) index.php?atab=irsa-claims&rewrite=$1
 RewriteRule ^consultancy/(.*) index.php?atab=consultancy&rewrite=$1
-RewriteRule ^mis-sold-savings-plan/pricing/(.*) index.php?atab=mis-sold-savings-plan-pricing&rewrite=$1
-RewriteRule ^mis-sold-savings-plan/(.*) index.php?atab=mis-sold-savings-plan&rewrite=$1
-RewriteRule ^mis-sold-packaged-products/(.*) index.php?atab=mis-sold-packaged-products&rewrite=$1
-RewriteRule ^mis-sold-products/irsa/(.*) index.php?atab=mis-sold-products-irsa&rewrite=$1
-RewriteRule ^mike-wallis/(.*) index.php?atab=mike-wallis&rewrite=$1
-RewriteRule ^ppi-claims/claim-now/(.*) index.php?atab=ppi-claim-now&rewrite=$1
-RewriteRule ^ppi-claims/pricing/(.*) index.php?atab=ppi-pricing&rewrite=$1
-RewriteRule ^ppi-claims/service-delivery/(.*) index.php?atab=ppi-service-delivery&rewrite=$1
-RewriteRule ^ppi-claims/faq/(.*) index.php?atab=ppi-faq&rewrite=$1
 RewriteRule ^terms/(.*) index.php?atab=terms&rewrite=$1
 RewriteRule ^messagesent/(.*) index.php?atab=messagesent&rewrite=$1
 RewriteRule ^submitclaim/(.*) index.php?atab=submitclaim&rewrite=$1
-RewriteRule ^other-services/additional-services/(.*) index.php?atab=other-services-additional&rewrite=$1
-RewriteRule ^other-services/interim-management/(.*) index.php?atab=other-services-interim-management&rewrite=$1
-RewriteRule ^other-services/mediation/(.*) index.php?atab=other-services-mediation&rewrite=$1
-RewriteRule ^mis-sold-products/faq/(.*) index.php?atab=mis-sold-faq&rewrite=$1
+RewriteRule ^business-services/(.*) index.php?atab=business-services&rewrite=$1
+RewriteRule ^interim-management/(.*) index.php?atab=interim-management&rewrite=$1
+RewriteRule ^mediation/(.*) index.php?atab=mediation&rewrite=$1
 RewriteRule ^privacynotice/(.*) index.php?atab=privacynotice&rewrite=$1
+RewriteRule ^contact-message/(.*) index.php?atab=message&rewrite=$1
+RewriteRule ^complaint/(.*) index.php?atab=complaint&rewrite=$1
 
 AddDefaultCharset Off

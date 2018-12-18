@@ -8,5 +8,3 @@ RUN php -r "unlink('composer-setup.php');"
 RUN composer require phpmailer/phpmailer
 COPY ./.php.ini /usr/local/etc/php/
 COPY ./ /var/www/html/
-ENV MAIL_USERNAME ''
-ENV MAIL_PASSWORD ''

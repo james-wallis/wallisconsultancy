@@ -6,57 +6,27 @@
 		<priority>0.7</priority>
 	</url>
 	<url>
-		<loc>http://www.wallisconsultancy.co.uk/ppi-claims/faq/index.html</loc>
+		<loc>http://www.wallisconsultancy.co.uk/mediation/index.html</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.wallisconsultancy.co.uk/ppi-claims/pricing/index.html</loc>
+		<loc>http://www.wallisconsultancy.co.uk/interim-management/index.html</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.wallisconsultancy.co.uk/mis-sold-savings-plan/index.html</loc>
+		<loc>http://www.wallisconsultancy.co.uk/business-services/index.html</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.wallisconsultancy.co.uk/mis-sold-packaged-products/index.html</loc>
+		<loc>http://www.wallisconsultancy.co.uk/terms/index.html</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.wallisconsultancy.co.uk/mis-sold-products/irsa/index.html</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://www.wallisconsultancy.co.uk/mis-sold-savings-plan/pricing/index.html</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://www.wallisconsultancy.co.uk/other-services/mediation/index.html</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://www.wallisconsultancy.co.uk/other-services/interim-management/index.html</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://www.wallisconsultancy.co.uk/other-services/additional-services/index.html</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://www.wallisconsultancy.co.uk/mike-wallis/index.html</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://www.wallisconsultancy.co.uk/mis-sold-products/faq/index.html</loc>
+		<loc>http://www.wallisconsultancy.co.uk/privacynotice/index.html</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>

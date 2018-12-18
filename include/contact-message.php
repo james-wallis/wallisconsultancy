@@ -3,8 +3,8 @@
 /* Namespace alias */
 use PHPMailer\PHPMailer\PHPMailer;
 $mailHost = 'smtp.gmail.com';
-$mailUsername = getenv('MAIL_USERNAME');
-$mailPassword = getenv('MAIL_PASSWORD');
+$mailUsername = getenv('WALLISCONSULTANCY_MAIL_USERNAME');
+$mailPassword = getenv('WALLISCONSULTANCY_MAIL_PASSWORD');
 /* Include the Composer generated autoload.php file. */
 require './vendor/autoload.php';
 
@@ -64,10 +64,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 		//Page switcher
 		if (!$validForm) {
-		  include("include/contact-footer.php");
+		  include("include/contact-message-error.php");
 		}
 		else {
-		  include("include/contact-footer-thank.php");
+		  include("include/contact-message-success.php");
 		  $mail->Subject = "Contact Form - $name";
 		  $mail->From       = "contact-form@wallisconsultancy.co.uk";
 		  $mail->FromName   = "contact-form@wallisconsultancy.co.uk";
@@ -78,16 +78,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		  $body  = str_replace("{email}",$email,$body);
 		  $body  = str_replace("{message}",$message,$body);
 		  //change address to dads
-			// $mail->AddAddress("mw@wallisconsultancy.co.uk", "Mike Wallis");
-			// $mail->AddCC("jamesemwallis@yahoo.co.uk", "Wallis");
-			$mail->AddAddress("jamesemwallis@yahoo.co.uk", "Wallis");
+			$mail->AddAddress("mw@wallisconsultancy.co.uk", "Mike Wallis");
+			$mail->AddCC("jamesemwallis@yahoo.co.uk", "James");
+			// $mail->AddAddress("jamesemwallis@yahoo.co.uk", "Wallis");
 			$mail->isHTML(true);
 			$mail->Body = $body;
 		  // $mail->MsgHTML($body);
 		  if(!$mail->Send()) {
-		    //echo "Mailer Error: " . $mail->ErrorInfo;
+				// echo "Mailer Error: " . $mail->ErrorInfo;
 		  } else {
-		    //echo "Message sent!";
+		    // echo "Message sent!";
 		  }
 	} //else close
  //validate close

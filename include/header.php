@@ -10,7 +10,7 @@
 						</div>
 						<div class="pull-right">
 							 <ul class="social pull-left">
-									<li class="linkedin"><a href="http://uk.linkedin.com/pub/mike-wallis/40/a91/b82" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+									<li class="linkedin"><a href="https://www.linkedin.com/in/mike-wallis-b82a9140/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 							 </ul>
 						</div>
 				 </div>
@@ -51,50 +51,24 @@
 				 <!-- Menu Start -->
 				 <nav class="collapse navbar-collapse menu">
 						<ul class="nav navbar-nav sf-menu">
-							 <li>
-									<a id="<?php if (((substr($atab, 0, 3)=="ppi")||($atab=="home"))&&(substr($atab, strlen($atab)-3, 3)!="ery")) {echo "current";} ?>" href="">
-									 PPI
-									<span class="sf-sub-indicator">
-									<i class="fa fa-angle-down "></i>
-									</span>
+						 	 <li id="<?php if (substr($atab, 0, 3)=="hom") {echo "current";} ?>">
+									<a href="/" >
+									Home
 									</a>
-									<ul>
-										 <li><a href="/" class="sf-with-ul">Welcome</a></li>
-										 <li><a href="/ppi-claims/faq/index.html" class="sf-with-ul">FAQs</a></li>
-										 <li><a href="/ppi-claims/pricing/index.html" class="sf-with-ul">Pricing</a></li>
-									</ul>
 							 </li>
-							 <li>
-									<a href="" id="<?php if (substr($atab, 0, 3)=="mis") {echo "current";} ?>">
-									Mis-Sold Products
-									<span class="sf-sub-indicator">
-									<i class="fa fa-angle-down "></i>
-									</span>
+							 <li id="<?php if (substr($atab, 0, 3)=="med") {echo "current";} ?>">
+									<a href="/mediation/index.html">
+									Mediation
 									</a>
-									<ul>
-										 <li><a href="/mis-sold-savings-plan/index.html" class="sf-with-ul">Savings Plan</a></li>
-										 <li><a href="/mis-sold-packaged-products/index.html" class="sf-with-ul">Packaged Products</a></li>
-										 <li><a href="/mis-sold-products/irsa/index.html" class="sf-with-ul">IRSA</a></li>
-										 <li><a href="/mis-sold-products/faq/index.html" class="sf-with-ul">General FAQs</a></li>
-										 <li><a href="/mis-sold-savings-plan/pricing/index.html" class="sf-with-ul">Pricing</a></li>
-									</ul>
 							 </li>
-							 <li>
-	 							 <a href="" id="<?php if (substr($atab, 0, 3)=="oth") {echo "current";} ?>">
-	 							 Other Services
-	 							 <span class="sf-sub-indicator">
-	 							 <i class="fa fa-angle-down "></i>
-	 							 </span>
-	 							 </a>
-	 							 <ul>
-	 									<li><a href="/other-services/mediation/index.html" class="sf-with-ul">Mediation</a></li>
-	 									<li><a href="/other-services/interim-management/index.html" class="sf-with-ul">Interim Management</a></li>
-	 									<li><a href="/other-services/additional-services/index.html" class="sf-with-ul">Additional Services</a></li>
-	 							 </ul>
-	 						</li>
-							 <li>
-									<a href="/mike-wallis/index.html" id="<?php if (substr($atab, 0, 3)=="mik") {echo "current";} ?>">
-									About Me
+							 <li id="<?php if (substr($atab, 0, 3)=="int") {echo "current";} ?>">
+									<a href="/interim-management/index.html">
+									Interim Management
+									</a>
+							 </li>
+							 <li id="<?php if (substr($atab, 0, 3)=="bus") {echo "current";} ?>">
+									<a href="/business-services/index.html">
+									Business Services
 									</a>
 							 </li>
 						</ul>
