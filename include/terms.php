@@ -12,7 +12,6 @@
                       <li>For the purposes of these Terms of Business: references to "we", "us" and "our" are Wallis Consultancy.</li>
                       <li>References to "you" and "your" are to the person or persons to whom our Terms of Business is addressed.</li>
                       <li>"consultancy services" means the services to be provided in accordance with these Terms of Business.</li>
-                      <li>"Disclosure Statement" means the statement to be signed and returned by yourself to us authorising us to act as your representative or mediator and confirming that you accept our terms and conditions and attaching copies of all documents, including any in electronic form, that are in your possession and are relevant to the instruction.</li>
                       <li>We give independent advice in connection with the consultancy services we are providing and you authorise us to act as your authorised representative where appropriate.</li>
                      </ol>
                     <li class="terms-header">Conduct</li>
@@ -50,7 +49,7 @@
                     </ol>
                     <li class="terms-header">Commencement, variation and termination</li>
                     <ol class="terms-content">
-                      <li>Your continued instructions will amount to an acceptance of these Terms of Business. However, it will not be possible for us to start or continue work on your behalf until your Disclosure Statement is received at our office. </li>
+                      <li>Your continued instructions will amount to an acceptance of these Terms of Business. However, it will not be possible for us to start or continue work on your behalf until your Agreement Form is received at our office. </li>
                       <li>You may be requested to supply information or complete paperwork. If we do not receive the requested documents within 28 days of the initial request we will assume you are terminating our services.</li>
                       <li>This agreement is subject to a 14 day cooling off period.</li>
                       <li>These Terms of Business may be terminated by either party, with immediate effect, by giving notice in writing or by email. </li>

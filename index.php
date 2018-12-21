@@ -20,8 +20,8 @@
 
 		$sitename 	= "Wallis Consultancy";
 		$robots		= "noodp, index, follow";
-		$keywords	= "lowest ppi claim fees, ppi claim low fee, ppi claims lowest fee, ppi cheapest fees, ppi low fee, lowest ppi fee, ppi company lowest fee";
-		$desc 		= "The quick and easy way to claim your PPI charges back. FEE only 10% on SUCCESS - NO UP FRONT COSTS. A personal service from a retired senior banker.";
+		$keywords	= "Mediation, Family Mediation, Neighbour Mediation, Workplace Mediation, Experienced Mediator, Mediation in Hertfordshire, Interim Management, Interim Management in Hertfordshire, Business Support in Hertfordshire, Business Support";
+		$desc 		= "Mediation and Business Support by an experienced personable profesional.";
 		$image		= "http://www.wallisconsultancy.co.uk/images/mike-wallis2.png";
 
 		//Switch for different pages
