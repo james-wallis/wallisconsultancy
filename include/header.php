@@ -26,53 +26,49 @@
 
 				 <!-- TopNav End -->
 				 <!-- Logo Start -->
-				 <a href="/">
-					 <div class="logo pull-left">
-						 <div class="col-lg-2 col-md-2 hidden-xs col-sm-2">
-						 	<img src="/images/mike-wallis-head.png" alt="Mike Wallis"/>
-						 </div>
-						 <div class="-text col-lg-10 col-md-10 col-xs-12 col-sm-10">
-							 <h5>Wallis Consultancy</h5>
-							 <p>A <em>personal</em> service from a retired senior banker</p>
-						 </div>
-					 </div>
-				 </a>
-				 <!-- Mobile Menu Start -->
-				 <div class="mobile navbar-header">
-						<a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
-						<i class="fa fa-bars fa-2x"></i>
-						</a>
-				 </div>
+				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-10">
+					<a href="/">
+						<div class="logo pull-left">
+							<div class="col-lg-2 col-md-2 hidden-xs col-sm-2">
+								<img src="/images/mike-wallis-head.png" alt="Mike Wallis"/>
+							</div>
+							<div class="-text col-lg-10 col-md-10 col-xs-12 col-sm-10">
+								<h5>Wallis Consultancy</h5>
+								<p>A <em>personal</em> service from a retired senior banker and family magistrate</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="hidden-lg hidden-md col-xs-12 col-sm-2">
+					<!-- Mobile Menu Start -->
+					<div class="mobile navbar-header">
+							<a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
+							<i class="fa fa-bars fa-2x"></i>
+							</a>
+					</div>
+				</div>
 				 <!-- Mobile Menu End -->
 				 <!-- Logo End -->
 				 <!-- Mobile Menu Start -->
 
 				 <!-- Mobile Menu End -->
 				 <!-- Menu Start -->
-				 <nav class="collapse navbar-collapse menu">
-						<ul class="nav navbar-nav sf-menu">
-						 	 <li id="<?php if (substr($atab, 0, 3)=="hom") {echo "current";} ?>">
-									<a href="/" >
-									Home
-									</a>
-							 </li>
-							 <li id="<?php if (substr($atab, 0, 3)=="med") {echo "current";} ?>">
-									<a href="/mediation/index.html">
-									Mediation
-									</a>
-							 </li>
-							 <li id="<?php if (substr($atab, 0, 3)=="int") {echo "current";} ?>">
-									<a href="/interim-management/index.html">
-									Interim Management
-									</a>
-							 </li>
-							 <li id="<?php if (substr($atab, 0, 3)=="bus") {echo "current";} ?>">
-									<a href="/business-services/index.html">
-									Business Services
-									</a>
-							 </li>
-						</ul>
-				 </nav>
+				 <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+					<nav class="collapse navbar-collapse menu">
+							<ul class="nav navbar-nav sf-menu">
+								<li id="<?php if (substr($atab, 0, 3)=="hom") {echo "current";} ?>">
+										<a href="/" >
+										Home
+										</a>
+								</li>
+								<li id="<?php if (substr($atab, 0, 3)=="med") {echo "current";} ?>">
+										<a href="/mediation/index.html">
+										Mediation
+										</a>
+								</li>
+							</ul>
+					</nav>
+				</div>
 				 <!-- Menu End -->
 			</div>
 	 </div>

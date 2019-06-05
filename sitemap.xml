@@ -11,16 +11,6 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://www.wallisconsultancy.co.uk/interim-management/index.html</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://www.wallisconsultancy.co.uk/business-services/index.html</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
 		<loc>http://www.wallisconsultancy.co.uk/terms/index.html</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>

@@ -53,7 +53,7 @@
                    </p>
                    <li class="privacynotice-header">How long do we keep your personal data?</li>
                    <p>
-                     We keep data for 6 years from the date that your involvement with the consultancy ceases.
+                     We keep data for 6 months from the date that your involvement with the consultancy ceases.
                    </p>
                    <li class="privacynotice-header">Your rights and your personal data</li>
                    <p>

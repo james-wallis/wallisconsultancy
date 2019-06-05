@@ -1,0 +1,9 @@
+sudo: required
+
+services:
+  - docker
+
+script: 
+  - docker login -u jamesemwallis -p $PASSWORD
+  - docker build -t jamesemwallis/wallisconsultancy:latest . 
+  - docker push jamesemwallis/wallisconsultancy:latest

@@ -204,7 +204,8 @@ nav.menu {
     
     max-width: 110px;
     min-width: 80px;
-    padding: 22px 10px 22px 10px;
+    /* padding: 22px 10px 22px 10px; */
+    padding: 31px 18px 31px 18px;
     text-align: center;
 }
 

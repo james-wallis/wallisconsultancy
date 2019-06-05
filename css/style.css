@@ -251,6 +251,11 @@ header .main-header {
 
 .logo {
     height: 80px;
+    width: 100%;
+}
+.logo > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
 }
 
 .logo h5 {

@@ -11,13 +11,7 @@
                   having been a family magistrate for nearly 20 years but has experience 
                   also in neighbourhood and workplace mediation.
                  </p>
-                  <p>
-                     If you are looking for business support then with 40 years retail 
-                     banking experience you have come to the right place to obtain unbiased, 
-                     professional advice help and support for you and your business.
-                  </p>
-                  <p>
-                     The services offered are set out on this site, as are my terms of business. 
+                  <p> 
                      Please let me know how I can help you. Contact me by sending an email with 
                      a brief description of your needs or give me a call. I will make contact 
                      with you within 24 hours.

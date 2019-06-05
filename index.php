@@ -27,20 +27,6 @@
 		//Switch for different pages
 		switch ($atab)
 		{
-			case "interim-management":
-				$title 		= "Interim Management";
-				$section 	= "Interim Management";
-				$canonical 	= "interim-management/index.html";
-				$page 		= "include/interim-management.php";
-				break;
-
-			case "business-services":
-				$title 		= "Business Services";
-				$section 	= "Business Services";
-				$canonical 	= "/business-services/index.html";
-				$page 		= "include/business-services.php";
-				break;
-
 			case "mediation":
 				$title		= "Mediation Services";
 				$section 	= "Mediation Services";
