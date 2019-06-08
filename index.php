@@ -28,8 +28,8 @@
 		switch ($atab)
 		{
 			case "mediation":
-				$title		= "Mediation Services";
-				$section 	= "Mediation Services";
+				$title		= "Areas of Mediation";
+				$section 	= "Areas of Mediation";
 				$canonical 	= "/mediation/index.html";
 				$page 		= "include/mediation.php";
 				break;

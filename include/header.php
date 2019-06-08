@@ -63,7 +63,7 @@
 								</li>
 								<li id="<?php if (substr($atab, 0, 3)=="med") {echo "current";} ?>">
 										<a href="/mediation/index.html">
-										Mediation
+										Areas of Mediation
 										</a>
 								</li>
 							</ul>

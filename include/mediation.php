@@ -4,7 +4,7 @@
       <div class="row">
          <div class="posts-block col-lg-8 col-md-8 col-sm-8 col-xs-12">
            <article>
-              <h2 class="title">Mediation</h2>
+              <!-- <h2 class="title">Areas of Mediation</h2> -->
               <div class="post-content">
                 <p>
                   The service is available for workplace mediation, 

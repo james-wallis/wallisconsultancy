@@ -1,0 +1,9 @@
+#!/bin/bash
+
+docker rm -f wallisconsultancy
+
+docker build -t wallisconsultancy . 
+
+docker run -d -p 2000:80 --name wallisconsultancy wallisconsultancy
+
+echo "Available on port 2000"
