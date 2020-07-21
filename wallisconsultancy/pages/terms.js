@@ -86,11 +86,11 @@ export default function TermsPage() {
       </p>
       <ol>
         {termsAndConditions.map(({ heading, terms }, index) => (
-          <li className="my-6">
+          <li key={heading} className="my-6">
             <p className="text-lg">{`${index+1}. ${heading}`}</p>
             <ol className="ml-4 my-2">
               {terms.map((term, subindex) => (
-                <li className="flex">
+                <li key={term} className="flex">
                   <span className="mr-2">{`${index+1}.${subindex+1}`}</span>
                   <span>{term}</span>
                 </li>
