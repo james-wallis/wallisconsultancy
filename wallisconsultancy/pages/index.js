@@ -1,6 +1,7 @@
 import Layout from '../components/layout'
 
 export default function IndexPage() {
+  const { srcSet, src } = require('../public/images/mike-wallis2.png?resize&sizes[]=200&sizes[]=350&sizes[]=500');
   return (
     <Layout pageTitle="Home">
       <div className="flex flex-col md:flex-row">
@@ -37,7 +38,7 @@ export default function IndexPage() {
           </p>
         </div>
         <div className="w-100 md:w-1/3 flex items-center justify-center">
-          <img src="/images/mike-wallis2.png" alt="Mike Wallis" />
+          <img srcSet={srcSet} src={src} alt="Mike Wallis" />
         </div>
       </div>
     </Layout>

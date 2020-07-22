@@ -1,6 +1,7 @@
 import Layout from '../components/layout'
 
 export default function MediationPage() {
+  const { srcSet, src } = require('../public/images/mediation.jpg?resize&sizes[]=200&sizes[]=350&sizes[]=500');
   return (
     <Layout pageTitle="Areas of Mediation">
       <div className="flex flex-col md:flex-row">
@@ -52,7 +53,7 @@ export default function MediationPage() {
           </p>
         </div>
         <div className="w-100 md:w-1/3 flex items-center justify-center">
-          <img src="/images/mediation.jpg" alt="People shaking hands representing successful mediation" />
+          <img srcSet={srcSet} src={src} alt="People shaking hands representing successful mediation" />
         </div>
       </div>
     </Layout>

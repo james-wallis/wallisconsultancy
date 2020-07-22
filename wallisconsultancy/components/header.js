@@ -9,7 +9,7 @@ export default function Header() {
           <div className="flex h-full justify-between items-center">
             <div className="hidden sm:flex pt-2 h-full w-32">
               <img
-                src="/images/mike-wallis-head.png"
+                src={require('../public/images/mike-wallis-head.png')}
                 className="h-full sm:ml-8 sm:pr-8"
               />
             </div>
