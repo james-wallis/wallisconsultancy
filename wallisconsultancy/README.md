@@ -48,3 +48,14 @@ This example is a basic starting point for using [Tailwind CSS](https://tailwind
 - [postcss-preset-env](https://preset-env.cssdb.org/) - Adds stage 2+ features and autoprefixes
 
 To control the generated stylesheet's filesize, this example uses Tailwind CSS' [`purge` option](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css) to remove unused CSS.
+
+## .env.local file
+To  use the application, you need to create a `.env.local` file with the following variables.
+[Next.js .env.local](https://nextjs.org/docs/basic-features/environment-variables#exposing-environment-variables-to-the-browser)
+
+```bash
+EMAIL_JS_SERVICE="" # EmailJS Service
+EMAIL_JS_TEMPLATE="" # EmailJS Template ID
+EMAIL_JS_USER="" # EmailJS User ID
+CAPTCHA_SITE_KEY="" # Google Captcha Site Key
+```
