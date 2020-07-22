@@ -1,5 +1,10 @@
+import { useState } from 'react'
 import Link from 'next/link';
 import { useRouter } from 'next/router'
+import Phone from './phone'
+import Email from './email'
+import SocialIcons from './socialIcons'
+import Hamburger from './hamburger'
 
 const links = [
   {
@@ -14,16 +19,29 @@ const links = [
 
 export default function Navigation() {
   const { pathname } = useRouter();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const toggleMenu = () => setMobileMenuOpen(!mobileMenuOpen);
+  const menuStyles = mobileMenuOpen ? 'flex' : 'hidden';
   return (
-    <nav className="mr-8 font-open-sans h-full flex flex-row text-gray-333 text-sm">
-      {links.map(({ title, href }) => {
-        const active = pathname === href ? 'active-link' : '';
-        return <Link href={href} key={href}>
-          <a className={`${active} px-6 h-full flex justify-center items-center border-b-4 border-white hover:border-theme-green transition-colors ease-linear duration-100`}>
-            <span className="block ">{title}</span>
-          </a>
-        </Link>
-      })}
-    </nav>
+    <>
+      <Hamburger toggleMenu={toggleMenu} />
+      <nav className={`${menuStyles} sm:flex fixed sm:relative sm:mr-8 py-20 sm:py-0 font-open-sans h-full flex flex-col sm:flex-row justify-between text-gray-333 text-lg sm:text-sm bg-white inset-0 sm:inset-auto`}>
+        <div className="flex flex-col sm:flex-row">
+          {links.map(({ title, href }) => {
+            const active = pathname === href ? 'sm:active-link' : '';
+            return <Link href={href} key={href}>
+              <a className={`${active} px-4 py-4 sm:py-0 sm:h-full flex justify-center items-center sm:border-b-4 border-white hover:border-theme-green transition-colors ease-linear duration-100 text-center`}>
+                {title}
+              </a>
+            </Link>
+          })}
+        </div>
+        <div className="flex sm:hidden flex-col text-center text-sm items-center">
+          <Phone />
+          <Email />
+          <SocialIcons />
+        </div>
+      </nav>
+    </>
   )
 }

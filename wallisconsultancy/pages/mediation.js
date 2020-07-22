@@ -3,8 +3,8 @@ import Layout from '../components/layout'
 export default function MediationPage() {
   return (
     <Layout pageTitle="Areas of Mediation">
-      <div className="flex">
-        <div className="w-2/3">
+      <div className="flex flex-col md:flex-row">
+        <div className="w-100 md:w-2/3">
           <p>
             The service is available for workplace mediation,
             neighbourhood mediation and family mediation.
@@ -51,7 +51,7 @@ export default function MediationPage() {
             Contact me to discuss your needs.
           </p>
         </div>
-        <div className="w-1/3 flex items-center justify-center">
+        <div className="w-100 md:w-1/3 flex items-center justify-center">
           <img src="/images/mediation.jpg" alt="People shaking hands representing successful mediation" />
         </div>
       </div>

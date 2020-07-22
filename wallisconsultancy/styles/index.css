@@ -4,27 +4,28 @@
 main p {
   @apply my-2;
 }
+@responsive {
+  .active-link {
+    @apply border-theme-green relative !important;
 
-.active-link {
-  @apply border-theme-green relative !important;
+  }
 
-}
-
-.active-link::after {
-  bottom: -2.5px;
-  content: '';
-  left: 50%;
-  display: block;
-  height: 5px;
-  margin: 0 0 0 -2.5px;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  position: absolute;
-  width: 5px;
-  @apply bg-theme-green;
+  .active-link::after {
+    bottom: -2.5px;
+    content: '';
+    left: 50%;
+    display: block;
+    height: 5px;
+    margin: 0 0 0 -2.5px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    width: 5px;
+    @apply bg-theme-green;
+  }
 }
 
 @tailwind utilities;
