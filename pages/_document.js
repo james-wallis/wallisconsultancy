@@ -12,8 +12,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" /> */}
-          <link rel="shortcut icon" href="/faviconlight.ico" />
+          <link rel="shortcut icon" href={`${process.env.BACKEND_URL}/faviconlight.ico`} />
         </Head>
         <body>
           <Main />

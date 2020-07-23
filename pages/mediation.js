@@ -17,7 +17,7 @@ export default function MediationPage() {
         }}
       />
       <div className="flex flex-col md:flex-row">
-        <div className="w-100 md:w-2/3">
+        <div className="w-100 md:w-2/3 sm:pr-4 md:pr-8">
           <p>
             The service is available for workplace mediation,
             neighbourhood mediation and family mediation.
@@ -66,12 +66,11 @@ export default function MediationPage() {
         </div>
         <div className="w-100 md:w-1/3 flex items-center justify-center">
           <picture>
-            <source srcSet={webpSrc} type="image/webp" />
-            <source srcSet={imgSrc} type="image/jpeg" />
+            <source srcSet={`${process.env.BACKEND_URL}${webpSrc}`} type="image/webp" />
+            <source srcSet={`${process.env.BACKEND_URL}${imgSrc}`} type="image/jpeg" />
             <img
-              src={imgSrc}
+              src={`${process.env.BACKEND_URL}${imgSrc}`}
               alt="People shaking hands representing successful mediation"
-              className="h-full sm:ml-8 sm:pr-8"
             />
           </picture>
         </div>

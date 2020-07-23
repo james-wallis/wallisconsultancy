@@ -30,7 +30,7 @@ export default function Navigation() {
           {links.map(({ title, href }) => {
             const active = pathname === href ? 'sm:active-link' : '';
             return (
-              <Link href={href} key={href}>
+              <Link href={`${process.env.BACKEND_URL}${href}`} key={href}>
                 <a className={`${active} px-4 py-4 sm:py-0 sm:h-full flex justify-center items-center sm:border-b-4 border-white hover:border-theme-green transition-colors ease-linear duration-100 text-center`}>
                   {title}
                 </a>

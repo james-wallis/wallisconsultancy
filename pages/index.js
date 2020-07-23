@@ -16,7 +16,7 @@ export default function IndexPage() {
         }}
       />
       <div className="flex flex-col md:flex-row">
-        <div className="w-100 md:w-2/3">
+        <div className="w-100 md:w-2/3 sm:pr-4 md:pr-8">
           <p>
             I am a retired senior banker with experience in both mediation and business support,
             personable and able to communicate easily at all levels.
@@ -51,9 +51,9 @@ export default function IndexPage() {
         <div className="w-100 md:w-1/3 flex items-center justify-center">
           <picture>
             <source srcSet={webpSrc} type="image/webp" />
-            <source srcSet={imgSrc} type="image/jpeg" />
+            <source srcSet={`${process.env.BACKEND_URL}${imgSrc}`} type="image/jpeg" />
             <img
-              src={imgSrc}
+              src={`${process.env.BACKEND_URL}${imgSrc}`}
               alt="Mike Wallis"
             />
           </picture>
