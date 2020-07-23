@@ -12,7 +12,7 @@ export default function IndexPage() {
         canonical={process.env.CANONICAL_URL}
         openGraph={{
           url: process.env.CANONICAL_URL,
-          title: 'Home',
+          title: 'Home | Wallis Consultancy',
         }}
       />
       <div className="flex flex-col md:flex-row">

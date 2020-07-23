@@ -9,7 +9,7 @@ export default function ComplaintPage() {
         canonical={`${process.env.CANONICAL_URL}/complaint`}
         openGraph={{
           url: `${process.env.CANONICAL_URL}/complaint`,
-          title: 'Complaints',
+          title: 'Complaints | Wallis Consultancy',
         }}
       />
       <p className="font-lato text-2xl mb-6">

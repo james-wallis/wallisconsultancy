@@ -9,7 +9,7 @@ export default function PrivacyNoticePage() {
         canonical={`${process.env.CANONICAL_URL}/privacynotice`}
         openGraph={{
           url: `${process.env.CANONICAL_URL}/privacynotice`,
-          title: 'Privacy Notice',
+          title: 'Privacy Notice | Wallis Consultancy',
         }}
       />
       <p className="font-lato text-2xl mb-6">

@@ -82,7 +82,7 @@ export default function TermsPage() {
         canonical={`${process.env.CANONICAL_URL}/terms`}
         openGraph={{
           url: `${process.env.CANONICAL_URL}/terms`,
-          title: 'Terms and Conditions',
+          title: 'Terms and Conditions | Wallis Consultancy',
         }}
       />
       <p className="font-lato text-2xl mb-6">

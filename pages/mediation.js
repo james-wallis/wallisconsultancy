@@ -13,7 +13,7 @@ export default function MediationPage() {
         canonical={`${process.env.CANONICAL_URL}/mediation`}
         openGraph={{
           url: `${process.env.CANONICAL_URL}/mediation`,
-          title: 'Areas of Mediation',
+          title: 'Areas of Mediation | Wallis Consultancy',
         }}
       />
       <div className="flex flex-col md:flex-row">
