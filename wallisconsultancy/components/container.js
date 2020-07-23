@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function Container({ children }) {
   return (
     <div className="w-screen flex justify-center">
@@ -5,5 +7,9 @@ export default function Container({ children }) {
         {children}
       </div>
     </div>
-  )
+  );
 }
+
+Container.propTypes = {
+  children: PropTypes.node.isRequired,
+};

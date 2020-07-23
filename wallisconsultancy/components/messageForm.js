@@ -1,7 +1,6 @@
-import { useState, useReducer } from 'react'
-import emailjs from 'emailjs-com'
+import { useState, useReducer } from 'react';
+import emailjs from 'emailjs-com';
 import ReCAPTCHA from 'react-google-recaptcha';
-
 
 const initialState = {
   name: '',
@@ -23,7 +22,6 @@ function reducer(state, action) {
 }
 
 export default function MessageForm() {
-
   const [formState, dispatch] = useReducer(reducer, initialState);
   const [showFormErr, setShowFormErr] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState({ title: '', paragraph: '' });
@@ -32,31 +30,37 @@ export default function MessageForm() {
 
   const submitFormAndShowCaptcha = (e) => {
     e.preventDefault();
-    setShowCaptcha(true)
-  }
+    setShowCaptcha(true);
+  };
 
   const sendEmail = (captchaValue) => {
     if (name === '' || email === '' || message === '') {
-      console.log('please fill out all the fields');
       setShowFormErr(true);
-      return
+      return;
     }
 
     const params = {
       ...formState,
       'g-recaptcha-response': captchaValue,
-    }
+    };
 
-    setFormSubmitted({ title: 'Sending message...', paragraph: '' })
-    emailjs.send(process.env.EMAIL_JS_SERVICE, process.env.EMAIL_JS_TEMPLATE, params, process.env.EMAIL_JS_USER)
-      .then((response) => {
-        console.log('SUCCESS sending email!', response.status, response.text);
-        setFormSubmitted({ title: 'Message has been sent', paragraph: 'Mike will be in contact with you soon.' })
-      }, (error) => {
-        console.log('FAILED sending email..', error);
-        setFormSubmitted({ title: 'Error sending message, try again later', paragraph: 'Please contact Mike either by phone or email.' })
+    setFormSubmitted({ title: 'Sending message...', paragraph: '' });
+    emailjs.send(
+      process.env.EMAIL_JS_SERVICE,
+      process.env.EMAIL_JS_TEMPLATE,
+      params,
+      process.env.EMAIL_JS_USER,
+    )
+      .then(({ status }) => {
+        if (status === 200) {
+          setFormSubmitted({ title: 'Message has been sent', paragraph: 'Mike will be in contact with you soon.' });
+        } else {
+          setFormSubmitted({ title: 'Unexpected status code returned from EmailJS, try again later', paragraph: 'Please contact Mike either by phone or email.' });
+        }
+      }, () => {
+        setFormSubmitted({ title: 'Error sending message, try again later', paragraph: 'Please contact Mike either by phone or email.' });
       });
-  }
+  };
 
   return formSubmitted.title === '' ? (
     <div>
@@ -65,9 +69,10 @@ export default function MessageForm() {
         <form onSubmit={submitFormAndShowCaptcha}>
           <div className="flex font-open-sans justify-start flex-col sm:flex-row">
             <div className="sm:mr-4 w-100 sm:w-1/2 md:w-2/5 flex flex-col items-end">
-              <label className="block text-gray-500 font-bold my-2 w-full">
+              <label className="block text-gray-500 font-bold my-2 w-full" htmlFor="contact-form-name">
                 Name:
                 <input
+                  id="contact-form-name"
                   className="appearance-none border-2 border-gray-200 rounded w-full p-2 text-gray-700 leading-tight focus:outline-none focus:border-theme-green"
                   type="text"
                   value={name}
@@ -75,9 +80,10 @@ export default function MessageForm() {
                   required
                 />
               </label>
-              <label className="block text-gray-500 font-bold my-2 w-full">
+              <label className="block text-gray-500 font-bold my-2 w-full" htmlFor="contact-form-email">
                 Email:
                 <input
+                  id="contact-form-email"
                   className="appearance-none border-2 border-gray-200 rounded w-full p-2 text-gray-700 leading-tight focus:outline-none focus:border-theme-green"
                   type="email"
                   value={email}
@@ -87,10 +93,11 @@ export default function MessageForm() {
               </label>
             </div>
             <div className="sm:mx-4 w-full sm:w-1/2 md:w-3/5">
-              <label className="block text-gray-500 font-bold my-2">
+              <label className="block text-gray-500 font-bold my-2" htmlFor="contact-form-message">
                 Message:
                 <textarea
                   rows="5"
+                  id="contact-form-message"
                   className="appearance-none border-2 border-gray-200 rounded w-full p-2 text-gray-700 leading-tight focus:outline-none focus:border-theme-green"
                   type="text"
                   value={message}
@@ -119,5 +126,5 @@ export default function MessageForm() {
       <h3 className="text-lato text-2xl font-light text-white">{formSubmitted.title}</h3>
       <p>{formSubmitted.paragraph}</p>
     </div>
-  )
+  );
 }

@@ -1,5 +1,5 @@
-import { NextSeo } from 'next-seo'
-import Layout from '../components/layout'
+import { NextSeo } from 'next-seo';
+import Layout from '../components/layout';
 
 export default function PrivacyNoticePage() {
   return (
@@ -50,7 +50,11 @@ export default function PrivacyNoticePage() {
           <ul className="list-disc ml-8 font-open-sans text-sm">
             <li>To enable us to take forward your instructions.</li>
             <li>To maintain our own accounts and records.</li>
-            <li>Your contact details will never be shared with a 3rd  party save in relation to items listed under paragraph 4 or with your consent see paragraph 5.</li>
+            <li>
+              Your contact details will never be shared with a 3rd
+              party save in relation to items listed under paragraph
+              4 or with your consent see paragraph 5.
+            </li>
           </ul>
         </li>
         <li className="my-4">
@@ -63,33 +67,54 @@ export default function PrivacyNoticePage() {
           </p>
           <ul className="list-disc ml-8 font-open-sans text-sm">
             <li>So that we can carry out your instructions to us.</li>
-            <li>Where processing is necessary for carrying out legal obligations to include, but not limited to, in relation to tax.</li>
+            <li>
+              Where processing is necessary for carrying out legal
+              obligations to include, but not limited to, in relation to tax.
+            </li>
           </ul>
         </li>
         <li className="my-4">
           <p>Sharing your personal data</p>
           <p className="font-open-sans text-sm">
-            Your personal data will be treated as strictly confidential and will only be shared with your express consent.
+            Your personal data will be treated as strictly confidential
+            and will only be shared with your express consent.
           </p>
         </li>
         <li className="my-4">
           <p>How long do we keep your personal data?</p>
           <p className="font-open-sans text-sm">
-            We keep data for 6 months from the date that your involvement with the consultancy ceases.
+            We keep data for 6 months from the date that
+            your involvement with the consultancy ceases.
           </p>
         </li>
         <li className="my-4">
           <p>Your rights and your personal data</p>
           <p className="font-open-sans text-sm">
-            Unless subject to an exemption under the GDPR, you have the following rights with respect to your personal data: –
+            Unless subject to an exemption under the GDPR, you have
+            the following rights with respect to your personal data: –
           </p>
           <ul className="list-disc ml-8 font-open-sans text-sm">
-            <li>The right to request a copy of your personal data which Wallis Consultancy holds about you:</li>
-            <li>The right to request that Wallis Consultancy corrects any personal data if it is found to be inaccurate or out of date;</li>
-            <li>The right to request your personal data is erased where it is no longer necessary for Wallis Consultancy to retain such data;</li>
+            <li>
+              The right to request a copy of your personal
+              data which Wallis Consultancy holds about you:
+            </li>
+            <li>
+              The right to request that Wallis Consultancy corrects
+              any personal data if it is found to be inaccurate or out of date;
+            </li>
+            <li>
+              The right to request your personal data is erased where it is no
+              longer necessary for Wallis Consultancy to retain such data;
+            </li>
             <li>The right to withdraw your consent to the processing at any time</li>
-            <li>The right to request that Wallis Consultancy transmit that data directly to another data controller,</li>
-            <li>The right, where there is a dispute in relation to the accuracy or processing of your personal data, to request that a restriction is placed on further processing;</li>
+            <li>
+              The right to request that Wallis Consultancy
+              transmit that data directly to another data controller,
+            </li>
+            <li>
+              The right, where there is a dispute in relation to the accuracy or processing of your
+              personal data, to request that a restriction is placed on further processing;
+            </li>
             <li>The right to object to the processing of personal data,</li>
             <li>The right to lodge a complaint with the Information Commissioners Office.</li>
           </ul>
@@ -110,7 +135,8 @@ export default function PrivacyNoticePage() {
           <p className="font-open-sans text-sm">
             To exercise all relevant rights, queries of complaints please in the first
             instance contact Data Compliance at Wallis Consultancy, Brynhyfryd,
-            Vicarage Road, Potten End, Hertfordshire, HP4 2QZ or by email to mw@wallisconsultancy.co.uk
+            Vicarage Road, Potten End, Hertfordshire,
+            HP4 2QZ or by email to mw@wallisconsultancy.co.uk
           </p>
           <p className="font-open-sans text-sm">
             You can contact the Information Commissioners Office on 0303 123 1113,
@@ -120,5 +146,5 @@ export default function PrivacyNoticePage() {
         </li>
       </ol>
     </Layout>
-  )
+  );
 }

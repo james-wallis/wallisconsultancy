@@ -1,7 +1,8 @@
-import { NextSeo } from 'next-seo'
-import Layout from '../components/layout'
+import { NextSeo } from 'next-seo';
+import Layout from '../components/layout';
 
 export default function MediationPage() {
+  // eslint-disable-next-line import/no-unresolved
   const { srcSet, src } = require('../public/images/mediation.jpg?resize&sizes[]=200&sizes[]=350&sizes[]=500');
   return (
     <Layout pageTitle="Areas of Mediation">
@@ -67,5 +68,5 @@ export default function MediationPage() {
         </div>
       </div>
     </Layout>
-  )
+  );
 }

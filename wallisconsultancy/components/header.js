@@ -1,7 +1,8 @@
-import Container from './container'
-import Navigation from './navigation'
+import Container from './container';
+import Navigation from './navigation';
 
 export default function Header() {
+  // eslint-disable-next-line import/no-unresolved
   const { src } = require('../public/images/mike-wallis-head.png?resize&size=100');
   return (
     <div className="w-screen">
@@ -28,5 +29,5 @@ export default function Header() {
         </div>
       </Container>
     </div>
-  )
+  );
 }

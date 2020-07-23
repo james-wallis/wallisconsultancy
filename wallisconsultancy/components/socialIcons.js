@@ -12,5 +12,5 @@ export default function SocialIcons() {
         <FaLinkedinIn aria-label="LinkedIn Icon" />
       </a>
     </div>
-  )
+  );
 }

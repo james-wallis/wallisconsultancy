@@ -1,5 +1,5 @@
-import { NextSeo } from 'next-seo'
-import Layout from '../components/layout'
+import { NextSeo } from 'next-seo';
+import Layout from '../components/layout';
 
 const termsAndConditions = [
   {
@@ -72,7 +72,7 @@ const termsAndConditions = [
       'These Terms of Business shall be governed by, and construed in accordance with, English Law.',
     ],
   },
-]
+];
 
 export default function TermsPage() {
   return (
@@ -89,18 +89,18 @@ export default function TermsPage() {
         Terms and Conditions
       </p>
       <p>
-        The following terms constitute the Terms of Business (the "Terms of Business") of
+        The following terms constitute the Terms of Business (the &quot;Terms of Business&quot;) of
         Michael Anthony Wallis trading as Wallis Consultancy to provide services as described below.
         They will apply to all transactions between both parties, unless varied in writing.
       </p>
       <ol>
         {termsAndConditions.map(({ heading, terms }, index) => (
           <li key={heading} className="my-6">
-            <p className="text-lg">{`${index+1}. ${heading}`}</p>
+            <p className="text-lg">{`${index + 1}. ${heading}`}</p>
             <ol className="ml-4 my-2">
               {terms.map((term, subindex) => (
                 <li key={term} className="flex">
-                  <span className="mr-2">{`${index+1}.${subindex+1}`}</span>
+                  <span className="mr-2">{`${index + 1}.${subindex + 1}`}</span>
                   <span>{term}</span>
                 </li>
               ))}
@@ -109,5 +109,5 @@ export default function TermsPage() {
         ))}
       </ol>
     </Layout>
-  )
+  );
 }

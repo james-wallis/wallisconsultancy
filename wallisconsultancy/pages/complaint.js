@@ -1,10 +1,10 @@
-import { NextSeo } from 'next-seo'
-import Layout from '../components/layout'
+import { NextSeo } from 'next-seo';
+import Layout from '../components/layout';
 
 export default function ComplaintPage() {
   return (
     <Layout pageTitle="Complaints">
-       <NextSeo
+      <NextSeo
         title="Complaints"
         canonical={`${process.env.CANONICAL_URL}/complaint`}
         openGraph={{
@@ -29,5 +29,5 @@ export default function ComplaintPage() {
         eight weeks of receipt of the complaint.
       </p>
     </Layout>
-  )
+  );
 }

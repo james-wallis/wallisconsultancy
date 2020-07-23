@@ -1,7 +1,7 @@
-import Container from './container'
-import Phone from './phone'
-import Email from './email'
-import SocialIcons from './socialIcons'
+import Container from './container';
+import Phone from './phone';
+import Email from './email';
+import SocialIcons from './socialIcons';
 
 export default function SocialBar() {
   return (
@@ -18,5 +18,5 @@ export default function SocialBar() {
         </div>
       </Container>
     </div>
-  )
+  );
 }

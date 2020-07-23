@@ -1,7 +1,8 @@
-import { NextSeo } from 'next-seo'
-import Layout from '../components/layout'
+import { NextSeo } from 'next-seo';
+import Layout from '../components/layout';
 
 export default function IndexPage() {
+  // eslint-disable-next-line import/no-unresolved
   const { srcSet, src } = require('../public/images/mike-wallis2.png?resize&sizes[]=200&sizes[]=350&sizes[]=500');
   return (
     <Layout pageTitle="Home">
@@ -51,5 +52,5 @@ export default function IndexPage() {
         </div>
       </div>
     </Layout>
-  )
+  );
 }

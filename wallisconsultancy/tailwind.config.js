@@ -23,7 +23,7 @@ module.exports = {
       },
       fontFamily: {
         'open-sans': '"Open Sans", Helvetica, Arial, sans-serif',
-        'lato': '"Lato", sans-serif',
+        lato: '"Lato", sans-serif',
       },
       width: {
         xl: '1230px',
@@ -32,4 +32,4 @@ module.exports = {
   },
   variants: {},
   plugins: [],
-}
+};

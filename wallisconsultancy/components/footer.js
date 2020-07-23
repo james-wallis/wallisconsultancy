@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import Container from './container'
+import Link from 'next/link';
+import Container from './container';
 
 const links = [
   {
@@ -14,7 +14,7 @@ const links = [
     title: 'Data Privacy Notice',
     href: '/privacynotice',
   },
-]
+];
 
 export default function Footer() {
   return (
@@ -45,5 +45,5 @@ export default function Footer() {
         </div>
       </Container>
     </footer>
-  )
+  );
 }

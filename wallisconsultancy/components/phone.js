@@ -6,5 +6,5 @@ export default function Phone() {
       <FaPhoneAlt />
       <p className="ml-2">Phone: 07891760244</p>
     </a>
-  )
+  );
 }

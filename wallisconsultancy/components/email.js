@@ -8,5 +8,5 @@ export default function Email() {
         Email: mw@wallisconsultancy.co.uk
       </p>
     </a>
-  )
+  );
 }

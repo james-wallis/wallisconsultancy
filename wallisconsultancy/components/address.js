@@ -11,5 +11,5 @@ export default function Address() {
         <p>Brynhyfryd, Vicarage Road, Potten End, Herts, HP4 2QZ.</p>
       </div>
     </div>
-  )
+  );
 }
