@@ -12,8 +12,8 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
-          <link rel="shortcut icon" href="/images/faviconlight.ico" />
+          {/* <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" /> */}
+          <link rel="shortcut icon" href="/faviconlight.ico" />
         </Head>
         <body>
           <Main />

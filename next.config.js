@@ -1,4 +1,5 @@
-const withOptimizedImages = require('next-optimized-images');
+const withPlugins = require('next-compose-plugins');
+const optimizedImages = require('next-optimized-images');
 
 const {
   EMAIL_JS_SERVICE,
@@ -15,6 +16,21 @@ const env = {
   CAPTCHA_SITE_KEY,
 };
 
-module.exports = withOptimizedImages({
-  env,
-});
+module.exports = withPlugins([
+  [optimizedImages, {
+    mozjpeg: {
+      quality: 80,
+    },
+    // optipng: {
+    //   optimizationLevel: 3,
+    // },
+    pngquant: {
+      speed: 3,
+      strip: true,
+      verbose: true,
+    },
+  }],
+  {
+    env,
+  },
+]);

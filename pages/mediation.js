@@ -3,7 +3,8 @@ import Layout from '../components/layout';
 
 export default function MediationPage() {
   // eslint-disable-next-line import/no-unresolved
-  const { srcSet, src } = require('../public/images/mediation.jpg?resize&sizes[]=200&sizes[]=350&sizes[]=500');
+  const webpSrc = require('../images/mediation.jpg?webp');
+  const imgSrc = require('../images/mediation.jpg');
   return (
     <Layout pageTitle="Areas of Mediation">
       <NextSeo
@@ -64,7 +65,15 @@ export default function MediationPage() {
           </p>
         </div>
         <div className="w-100 md:w-1/3 flex items-center justify-center">
-          <img srcSet={srcSet} src={src} alt="People shaking hands representing successful mediation" />
+          <picture>
+            <source srcSet={webpSrc} type="image/webp" />
+            <source srcSet={imgSrc} type="image/jpeg" />
+            <img
+              src={imgSrc}
+              alt="People shaking hands representing successful mediation"
+              className="h-full sm:ml-8 sm:pr-8"
+            />
+          </picture>
         </div>
       </div>
     </Layout>

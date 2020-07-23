@@ -3,7 +3,8 @@ import Layout from '../components/layout';
 
 export default function IndexPage() {
   // eslint-disable-next-line import/no-unresolved
-  const { srcSet, src } = require('../public/images/mike-wallis2.png?resize&sizes[]=200&sizes[]=350&sizes[]=500');
+  const webpSrc = require('../images/mike-wallis2.jpg?webp');
+  const imgSrc = require('../images/mike-wallis2.jpg');
   return (
     <Layout pageTitle="Home">
       <NextSeo
@@ -48,7 +49,14 @@ export default function IndexPage() {
           </p>
         </div>
         <div className="w-100 md:w-1/3 flex items-center justify-center">
-          <img srcSet={srcSet} src={src} alt="Mike Wallis" />
+          <picture>
+            <source srcSet={webpSrc} type="image/webp" />
+            <source srcSet={imgSrc} type="image/jpeg" />
+            <img
+              src={imgSrc}
+              alt="Mike Wallis"
+            />
+          </picture>
         </div>
       </div>
     </Layout>
