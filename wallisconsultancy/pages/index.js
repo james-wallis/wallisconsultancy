@@ -1,9 +1,18 @@
+import { NextSeo } from 'next-seo'
 import Layout from '../components/layout'
 
 export default function IndexPage() {
   const { srcSet, src } = require('../public/images/mike-wallis2.png?resize&sizes[]=200&sizes[]=350&sizes[]=500');
   return (
     <Layout pageTitle="Home">
+      <NextSeo
+        title="Home"
+        canonical={process.env.CANONICAL_URL}
+        openGraph={{
+          url: process.env.CANONICAL_URL,
+          title: 'Home',
+        }}
+      />
       <div className="flex flex-col md:flex-row">
         <div className="w-100 md:w-2/3">
           <p>

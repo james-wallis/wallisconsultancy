@@ -17,6 +17,7 @@ module.exports = {
       borderColor: {
         'gray-e9': '#e9e9e9',
         'gray-999': '#999',
+        'gray-333': '#333',
         'theme-green': '#008080',
         'theme-light-blue': '#414f5a',
       },

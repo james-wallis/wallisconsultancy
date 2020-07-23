@@ -1,3 +1,4 @@
+import { NextSeo } from 'next-seo'
 import Layout from '../components/layout'
 
 const termsAndConditions = [
@@ -76,6 +77,14 @@ const termsAndConditions = [
 export default function TermsPage() {
   return (
     <Layout pageTitle="Terms and Conditions">
+      <NextSeo
+        title="Terms and Conditions"
+        canonical={`${process.env.CANONICAL_URL}/terms`}
+        openGraph={{
+          url: `${process.env.CANONICAL_URL}/terms`,
+          title: 'Terms and Conditions',
+        }}
+      />
       <p className="font-lato text-2xl mb-6">
         Terms and Conditions
       </p>

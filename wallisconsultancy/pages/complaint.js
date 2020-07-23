@@ -1,8 +1,17 @@
+import { NextSeo } from 'next-seo'
 import Layout from '../components/layout'
 
 export default function ComplaintPage() {
   return (
-    <Layout pageTitle="Complaint">
+    <Layout pageTitle="Complaints">
+       <NextSeo
+        title="Complaints"
+        canonical={`${process.env.CANONICAL_URL}/complaint`}
+        openGraph={{
+          url: `${process.env.CANONICAL_URL}/complaint`,
+          title: 'Complaints',
+        }}
+      />
       <p className="font-lato text-2xl mb-6">
         Complaints
       </p>

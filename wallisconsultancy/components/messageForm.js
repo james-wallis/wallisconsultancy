@@ -68,7 +68,6 @@ export default function MessageForm() {
               <label className="block text-gray-500 font-bold my-2 w-full">
                 Name:
                 <input
-                  tabIndex="1"
                   className="appearance-none border-2 border-gray-200 rounded w-full p-2 text-gray-700 leading-tight focus:outline-none focus:border-theme-green"
                   type="text"
                   value={name}
@@ -79,7 +78,6 @@ export default function MessageForm() {
               <label className="block text-gray-500 font-bold my-2 w-full">
                 Email:
                 <input
-                  tabIndex="2"
                   className="appearance-none border-2 border-gray-200 rounded w-full p-2 text-gray-700 leading-tight focus:outline-none focus:border-theme-green"
                   type="email"
                   value={email}
@@ -92,7 +90,6 @@ export default function MessageForm() {
               <label className="block text-gray-500 font-bold my-2">
                 Message:
                 <textarea
-                  tabIndex="3"
                   rows="5"
                   className="appearance-none border-2 border-gray-200 rounded w-full p-2 text-gray-700 leading-tight focus:outline-none focus:border-theme-green"
                   type="text"
@@ -105,7 +102,7 @@ export default function MessageForm() {
           </div>
           <div className="w-full flex justify-end items-center flex-col sm:flex-row">
             {showFormErr ? <p className="sm:mr-4 text-red-400">Please fill in all three input boxes to send a message</p> : null}
-            <button tabIndex="4" className="bg-theme-green text-white py-2 px-4 mt-6 sm:mr-4 rounded focus:outline-none focus:shadow-outline w-full md:w-1/4 lg:w-1/5" type="submit">
+            <button className="bg-theme-green text-white py-2 px-4 mt-6 sm:mr-4 rounded focus:outline-none focus:shadow-outline w-full md:w-1/4 lg:w-1/5" type="submit">
               Send
             </button>
           </div>

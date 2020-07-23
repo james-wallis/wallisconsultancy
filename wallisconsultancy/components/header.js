@@ -2,6 +2,7 @@ import Container from './container'
 import Navigation from './navigation'
 
 export default function Header() {
+  const { src } = require('../public/images/mike-wallis-head.png?resize&size=100');
   return (
     <div className="w-screen">
       <Container>
@@ -9,13 +10,14 @@ export default function Header() {
           <div className="flex h-full justify-between items-center">
             <div className="hidden sm:flex pt-2 h-full w-32">
               <img
-                src={require('../public/images/mike-wallis-head.png')}
+                src={src}
                 className="h-full sm:ml-8 sm:pr-8"
+                alt="Mike Wallis headshot"
               />
             </div>
             <div className="w-10/12">
-              <h2 className="text-2xl sm:text-3xl font-light font-lato">Wallis Consultancy</h2>
-              <p className="text-gray-999 text-sm">
+              <h1 className="text-2xl sm:text-3xl font-light font-lato">Wallis Consultancy</h1>
+              <p className="text-gray-333 text-sm">
                 A
                 <em className="text-black"> personal </em>
                 service from a retired senior banker and family magistrate

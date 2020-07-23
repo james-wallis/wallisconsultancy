@@ -1,8 +1,17 @@
+import { NextSeo } from 'next-seo'
 import Layout from '../components/layout'
 
 export default function PrivacyNoticePage() {
   return (
     <Layout pageTitle="Complaint">
+      <NextSeo
+        title="Privacy Notice"
+        canonical={`${process.env.CANONICAL_URL}/privacynotice`}
+        openGraph={{
+          url: `${process.env.CANONICAL_URL}/privacynotice`,
+          title: 'Privacy Notice',
+        }}
+      />
       <p className="font-lato text-2xl mb-6">
         Data Privacy Notice
       </p>

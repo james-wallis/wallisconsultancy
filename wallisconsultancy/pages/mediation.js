@@ -1,9 +1,19 @@
+import { NextSeo } from 'next-seo'
 import Layout from '../components/layout'
 
 export default function MediationPage() {
   const { srcSet, src } = require('../public/images/mediation.jpg?resize&sizes[]=200&sizes[]=350&sizes[]=500');
   return (
     <Layout pageTitle="Areas of Mediation">
+      <NextSeo
+        title="Areas of Mediation"
+        description="Mike Wallis is trained as a mediator can provide workplace, neighbourhood and family mediation. Find out how I can help you."
+        canonical={`${process.env.CANONICAL_URL}/mediation`}
+        openGraph={{
+          url: `${process.env.CANONICAL_URL}/mediation`,
+          title: 'Areas of Mediation',
+        }}
+      />
       <div className="flex flex-col md:flex-row">
         <div className="w-100 md:w-2/3">
           <p>
