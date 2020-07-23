@@ -1,9 +1,24 @@
-sudo: required
-
-services:
-  - docker
-
-script: 
-  - docker login -u jamesemwallis -p $PASSWORD
-  - docker build -t jamesemwallis/wallisconsultancy:latest . 
-  - docker push jamesemwallis/wallisconsultancy:latest
+language: node_js
+node_js:
+  - 12
+cache:
+  directories:
+  - node_modules
+script:
+  - npm run eslint
+  - npm run build
+  - npm run export
+  - touch out/.nojekyll
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  local_dir: out
+  on:
+    branch: master
+notifications:
+  email:
+    recipients:
+    - j@wallis.dev
+    on_success: change
+    on_failure: always
