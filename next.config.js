@@ -18,7 +18,7 @@ const env = {
   EMAIL_JS_TEMPLATE,
   EMAIL_JS_USER,
   CAPTCHA_SITE_KEY,
-  BACKEND_URL: hostedOnGitHubPages ? '/wallisconsultancy' : '',
+  BACKEND_URL: hostedOnGitHubPages ? '' : '',
 };
 
 module.exports = withPlugins([
@@ -33,7 +33,7 @@ module.exports = withPlugins([
     },
   }],
   {
-    assetPrefix: hostedOnGitHubPages ? '/wallisconsultancy/' : '',
+    assetPrefix: hostedOnGitHubPages ? '' : '',
     env,
   },
 ]);
