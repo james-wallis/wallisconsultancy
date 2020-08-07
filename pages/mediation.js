@@ -66,10 +66,10 @@ export default function MediationPage() {
         </div>
         <div className="w-100 md:w-1/3 flex items-center justify-center">
           <picture>
-            <source srcSet={`${process.env.BACKEND_URL}${webpSrc}`} type="image/webp" />
-            <source srcSet={`${process.env.BACKEND_URL}${imgSrc}`} type="image/jpeg" />
+            <source srcSet={webpSrc} type="image/webp" />
+            <source srcSet={imgSrc} type="image/jpeg" />
             <img
-              src={`${process.env.BACKEND_URL}${imgSrc}`}
+              src={imgSrc}
               alt="People shaking hands representing successful mediation"
             />
           </picture>

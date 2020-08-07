@@ -12,9 +12,9 @@
     "emailjs-com": "^2.6.3",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.0",
-    "next": "^9.2.0",
+    "next": "^9.5.1",
     "next-compose-plugins": "^2.2.0",
-    "next-optimized-images": "^2.6.1",
+    "next-optimized-images": "^2.6.2",
     "next-seo": "^4.7.3",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -24,14 +24,14 @@
     "webp-loader": "^0.6.0"
   },
   "devDependencies": {
-    "eslint": "^7.4.0",
+    "eslint": "^7.6.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^23.18.0",
+    "eslint-plugin-jest": "^23.20.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.5",
     "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^1.4.0"
+    "tailwindcss": "^1.6.2"
   }
 }

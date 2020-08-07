@@ -6,11 +6,8 @@ const {
   EMAIL_JS_TEMPLATE,
   EMAIL_JS_USER,
   CAPTCHA_SITE_KEY,
+  GTAG,
 } = process.env;
-
-const hostedOnGitHubPages = !!process.env.github_token;
-// eslint-disable-next-line no-console
-console.log('Hosted on Github Pages =', hostedOnGitHubPages);
 
 const env = {
   CANONICAL_URL: 'https://wallisconsultancy.co.uk',
@@ -18,7 +15,7 @@ const env = {
   EMAIL_JS_TEMPLATE,
   EMAIL_JS_USER,
   CAPTCHA_SITE_KEY,
-  BACKEND_URL: hostedOnGitHubPages ? '' : '',
+  GTAG,
 };
 
 module.exports = withPlugins([
@@ -33,7 +30,6 @@ module.exports = withPlugins([
     },
   }],
   {
-    assetPrefix: hostedOnGitHubPages ? '' : '',
     env,
   },
 ]);

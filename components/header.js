@@ -15,7 +15,7 @@ export default function Header() {
                 <source srcSet={webpSrc} type="image/webp" />
                 <source srcSet={imgSrc} type="image/jpeg" />
                 <img
-                  src={`${process.env.BACKEND_URL}${imgSrc}`}
+                  src={imgSrc}
                   alt="Mike Wallis headshot"
                   className="h-full sm:ml-8 sm:pr-8"
                 />

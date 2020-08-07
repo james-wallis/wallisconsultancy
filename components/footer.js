@@ -34,7 +34,7 @@ export default function Footer() {
           <ul className="flex flex-col md:flex-row items-center">
             {links.map(({ title, href }) => (
               <li key={href} className="my-2 md:my-0 mx-4 hover:text-gray-a1 transition-colors ease-linear duration-100">
-                <Link href={`${process.env.BACKEND_URL}${href}`}>
+                <Link href={href}>
                   <a>
                     {title}
                   </a>

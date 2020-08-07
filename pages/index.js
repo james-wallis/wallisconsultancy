@@ -2,9 +2,6 @@ import { NextSeo } from 'next-seo';
 import Layout from '../components/layout';
 
 export default function IndexPage() {
-  // eslint-disable-next-line import/no-unresolved
-  const webpSrc = require('../images/mike-wallis2.jpg?webp');
-  const imgSrc = require('../images/mike-wallis2.jpg');
   return (
     <Layout pageTitle="Home">
       <NextSeo
@@ -50,10 +47,11 @@ export default function IndexPage() {
         </div>
         <div className="w-100 md:w-1/3 flex items-center justify-center">
           <picture>
-            <source srcSet={webpSrc} type="image/webp" />
-            <source srcSet={`${process.env.BACKEND_URL}${imgSrc}`} type="image/jpeg" />
+            {/* eslint-disable-next-line import/no-unresolved */}
+            <source srcSet={require('../images/mike-wallis2.jpg?webp')} type="image/webp" />
+            <source srcSet={require('../images/mike-wallis2.jpg')} type="image/jpeg" />
             <img
-              src={`${process.env.BACKEND_URL}${imgSrc}`}
+              src={require('../images/mike-wallis2.jpg')}
               alt="Mike Wallis"
             />
           </picture>
