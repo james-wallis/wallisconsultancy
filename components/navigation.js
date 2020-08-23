@@ -12,6 +12,10 @@ const links = [
     href: '/',
   },
   {
+    title: 'About',
+    href: '/about',
+  },
+  {
     title: 'Areas of Mediation',
     href: '/mediation',
   },

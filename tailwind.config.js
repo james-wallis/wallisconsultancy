@@ -7,6 +7,7 @@ module.exports = {
         'gray-333': '#333',
         'gray-a1': '#A1A1A1',
         'gray-76': '#767676',
+        'theme-green': '#008080',
       },
       backgroundColor: {
         'gray-fb': '#fbfbfb',
