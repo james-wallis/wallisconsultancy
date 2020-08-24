@@ -35,7 +35,7 @@ export default function IndexPage() {
             is that mediation is by far the better way.
           </p>
           <p className="mb-8">
-            If you agree then let me try to mediate it for you.
+            If you agree then let me try to mediate for you.
           </p>
           <Link href="/mediation">
             <a className="mb-8 text-theme-green font-bold">
@@ -43,7 +43,7 @@ export default function IndexPage() {
             </a>
           </Link>
         </div>
-        <div className="w-100 md:w-1/3 flex items-center justify-center">
+        <div className="mt-8 md:mt-0 w-100 md:w-1/3 flex items-center justify-center">
           <picture>
             {/* eslint-disable-next-line import/no-unresolved */}
             <source srcSet={require('../images/stress.jpg?webp')} type="image/webp" />
