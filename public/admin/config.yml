@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: james-wallis/wallisconsultancy
+  branch: master
+publish_mode: editorial_workflow
+media_folder: "/images"
+collections:
+  - name: "home-page" # Used in routes, e.g., /admin/collections/blog
+    label: "Home Page" # Used in the UI
+    folder: "_pages" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    media_folder: "/images"
+    editor:
+     preview: false
+    fields: # The fields for each document, usually in front matter
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Image"
+        name: "image"
+        widget: "image"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+  - name: "pages"
+    label: "Pages"
+    folder: "_pages/dynamic"
+    create: true
+    slug: "{{slug}}"
+    media_folder: "/images"
+    editor:
+     preview: false
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Image"
+        name: "image"
+        widget: "image"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
