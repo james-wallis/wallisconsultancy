@@ -6,11 +6,11 @@ import Container from './container';
 import Contact from './contact';
 import Footer from './footer';
 
-export default function Layout({ children, pageTitle }) {
+export default function Layout({ children, pageTitle, links }) {
   return (
     <div className="flex flex-col md:h-screen">
       <SocialBar />
-      <Header />
+      <Header links={links} />
       <Breadcrumb>
         {pageTitle}
       </Breadcrumb>
@@ -30,4 +30,8 @@ export default function Layout({ children, pageTitle }) {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   pageTitle: PropTypes.string.isRequired,
+  links: PropTypes.arrayOf(PropTypes.exact({
+    title: PropTypes.string,
+    href: PropTypes.string,
+  })).isRequired,
 };

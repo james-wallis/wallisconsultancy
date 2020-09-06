@@ -1,9 +1,11 @@
 import { NextSeo } from 'next-seo';
+import PropTypes from 'prop-types';
 import Layout from '../components/layout';
+import { getNavigationLinks } from '../lib/navigation';
 
-export default function PrivacyNoticePage() {
+export default function PrivacyNoticePage({ links }) {
   return (
-    <Layout pageTitle="Complaint">
+    <Layout pageTitle="Complaint" links={links}>
       <NextSeo
         title="Privacy Notice"
         canonical={`${process.env.CANONICAL_URL}/privacynotice`}
@@ -148,3 +150,19 @@ export default function PrivacyNoticePage() {
     </Layout>
   );
 }
+
+export async function getStaticProps() {
+  const links = getNavigationLinks();
+  return {
+    props: {
+      links,
+    },
+  };
+}
+
+PrivacyNoticePage.propTypes = {
+  links: PropTypes.arrayOf(PropTypes.exact({
+    title: PropTypes.string,
+    href: PropTypes.string,
+  })).isRequired,
+};

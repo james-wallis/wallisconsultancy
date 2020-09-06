@@ -1,5 +1,7 @@
 import { NextSeo } from 'next-seo';
+import PropTypes from 'prop-types';
 import Layout from '../components/layout';
+import { getNavigationLinks } from '../lib/navigation';
 
 const termsAndConditions = [
   {
@@ -74,9 +76,9 @@ const termsAndConditions = [
   },
 ];
 
-export default function TermsPage() {
+export default function TermsPage({ links }) {
   return (
-    <Layout pageTitle="Terms and Conditions">
+    <Layout pageTitle="Terms and Conditions" links={links}>
       <NextSeo
         title="Terms and Conditions"
         canonical={`${process.env.CANONICAL_URL}/terms`}
@@ -111,3 +113,19 @@ export default function TermsPage() {
     </Layout>
   );
 }
+
+export async function getStaticProps() {
+  const links = getNavigationLinks();
+  return {
+    props: {
+      links,
+    },
+  };
+}
+
+TermsPage.propTypes = {
+  links: PropTypes.arrayOf(PropTypes.exact({
+    title: PropTypes.string,
+    href: PropTypes.string,
+  })).isRequired,
+};
