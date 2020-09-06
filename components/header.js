@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types';
 import Container from './container';
 import Navigation from './navigation';
 
-export default function Header() {
+export default function Header({ links }) {
   // eslint-disable-next-line import/no-unresolved
   const webpSrc = require('../images/mike-wallis-head.jpg?webp');
   const imgSrc = require('../images/mike-wallis-head.jpg');
@@ -30,9 +31,16 @@ export default function Header() {
               </p>
             </div>
           </div>
-          <Navigation />
+          <Navigation links={links} />
         </div>
       </Container>
     </div>
   );
 }
+
+Header.propTypes = {
+  links: PropTypes.arrayOf(PropTypes.exact({
+    title: PropTypes.string,
+    href: PropTypes.string,
+  })).isRequired,
+};

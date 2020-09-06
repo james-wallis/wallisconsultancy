@@ -1,0 +1,24 @@
+.markdown {
+  @apply text-base leading-relaxed text-left;
+}
+
+.markdown p {
+  @apply my-4;
+}
+
+.markdown ul,
+.markdown ol {
+  @apply my-6 ml-8;
+}
+
+.markdown ul {
+  @apply list-disc;
+}
+
+.markdown a {
+  @apply text-theme-green block;
+}
+
+.markdown :first-child {
+  @apply mt-0;
+}

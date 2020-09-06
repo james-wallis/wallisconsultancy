@@ -1,9 +1,11 @@
 import { NextSeo } from 'next-seo';
+import PropTypes from 'prop-types';
 import Layout from '../components/layout';
+import { getNavigationLinks } from '../lib/navigation';
 
-export default function ComplaintPage() {
+export default function ComplaintPage({ links }) {
   return (
-    <Layout pageTitle="Complaints">
+    <Layout pageTitle="Complaints" links={links}>
       <NextSeo
         title="Complaints"
         canonical={`${process.env.CANONICAL_URL}/complaint`}
@@ -31,3 +33,19 @@ export default function ComplaintPage() {
     </Layout>
   );
 }
+
+export async function getStaticProps() {
+  const links = getNavigationLinks();
+  return {
+    props: {
+      links,
+    },
+  };
+}
+
+ComplaintPage.propTypes = {
+  links: PropTypes.arrayOf(PropTypes.exact({
+    title: PropTypes.string,
+    href: PropTypes.string,
+  })).isRequired,
+};
