@@ -4,11 +4,11 @@ image: mediation.jpg
 navigation: true
 footer: false
 ---
-The service is available for workplace mediation, neighbourhood mediation and family mediation.
+The service is available for workplace mediation, neighbourhood mediation and family mediation. Mediation can be face to face or online using Zoom.
 
 Mediation is a voluntary process conducted confidentially in which I as a trained neutral person, known as a mediator, assists parties in working towards a negotiated agreement of a dispute or difference.
 
-The service is accessible for mediation in Hemel Hempstead, mediation in Berkhamsted and for mediation in Tring. The service is therefore able to be used for these areas of mediation in the whole of the Borough of Dacorum, Hertfordshire.
+The service is accessible for mediation in Hemel Hempstead, Berkhamsted and Tring. The service is therefore able to be used for mediation in the whole of the Borough of Dacorum, Hertfordshire.
 
 Workplace Mediation can help settle conflict between staff and between staff and management or within management.
 
