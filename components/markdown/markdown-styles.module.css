@@ -2,6 +2,14 @@
   @apply text-base leading-relaxed text-left;
 }
 
+.markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+  @apply font-lato;
+}
+
+.markdown h3 {
+  @apply text-2xl mb-6
+}
+
 .markdown p {
   @apply my-4;
 }
@@ -15,8 +23,12 @@
   @apply list-disc;
 }
 
+.markdown ol {
+  @apply list-decimal;
+}
+
 .markdown a {
-  @apply text-theme-green block;
+  @apply text-theme-green;
 }
 
 .markdown :first-child {

@@ -1,14 +1,21 @@
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 
-// TODO support external link and detect whether it's a local link or not
 export default function CustomLink({ children, href }) {
-  return (
+  return href.startsWith('/') || href === '' ? (
     <Link href={href}>
       <a>
         {children}
       </a>
     </Link>
+  ) : (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {children}
+    </a>
   );
 }
 

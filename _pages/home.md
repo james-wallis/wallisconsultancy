@@ -1,6 +1,7 @@
 ---
 title: Home
 image: stress.jpg
+navigation: true
 ---
 If you are in dispute do you want:
 

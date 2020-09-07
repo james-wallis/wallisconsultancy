@@ -1,6 +1,8 @@
 ---
 title: Areas of Mediation
 image: mediation.jpg
+navigation: true
+footer: false
 ---
 The service is available for workplace mediation, neighbourhood mediation and family mediation.
 

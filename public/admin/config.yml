@@ -20,6 +20,14 @@ collections:
       - label: "Image"
         name: "image"
         widget: "image"
+      - label: "Display in Navigation Bar?"
+        name: "navigation"
+        widget: "boolean"
+        required: false
+      - label: "Display in Footer?"
+        name: "footer"
+        widget: "boolean"
+        required: false
       - label: "Body"
         name: "body"
         widget: "markdown"
@@ -38,6 +46,14 @@ collections:
       - label: "Image"
         name: "image"
         widget: "image"
+      - label: "Display in Navigation Bar?"
+        name: "navigation"
+        widget: "boolean"
+        required: false
+      - label: "Display in Footer?"
+        name: "footer"
+        widget: "boolean"
+        required: false
       - label: "Body"
         name: "body"
         widget: "markdown"

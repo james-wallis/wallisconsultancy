@@ -1,6 +1,8 @@
 ---
 title: About Mike
 image: mike-wallis2.jpg
+navigation: true
+footer: false
 ---
 I am a retired senior banker with experience in both mediation and business support, personable and able to communicate easily at all levels.
 

@@ -1,22 +1,24 @@
 import Link from 'next/link';
+import PropTypes from 'prop-types';
 import Container from './container';
 
-const links = [
-  {
-    title: 'Terms & Conditions',
-    href: '/terms',
-  },
-  {
-    title: 'Complaints',
-    href: '/complaint',
-  },
-  {
-    title: 'Data Privacy Notice',
-    href: '/privacynotice',
-  },
-];
+// const links = [
+//   {
+//     title: 'Terms & Conditions',
+//     href: '/terms',
+//   },
+//   {
+//     title: 'Complaints',
+//     href: '/complaint',
+//   },
+//   {
+//     title: 'Data Privacy Notice',
+//     href: '/privacynotice',
+//   },
+// ];
 
-export default function Footer() {
+export default function Footer({ links }) {
+  const footerLinks = links.filter(({ footer }) => footer);
   return (
     <footer className="w-screen bg-black-27">
       <Container>
@@ -32,7 +34,7 @@ export default function Footer() {
             </a>
           </div>
           <ul className="flex flex-col md:flex-row items-center">
-            {links.map(({ title, href }) => (
+            {footerLinks.map(({ title, href }) => (
               <li key={href} className="my-2 md:my-0 mx-4 hover:text-gray-a1 transition-colors ease-linear duration-100">
                 <Link href={href}>
                   <a>
@@ -47,3 +49,12 @@ export default function Footer() {
     </footer>
   );
 }
+
+Footer.propTypes = {
+  links: PropTypes.arrayOf(PropTypes.exact({
+    title: PropTypes.string,
+    href: PropTypes.string,
+    navigation: PropTypes.bool,
+    footer: PropTypes.bool,
+  })).isRequired,
+};

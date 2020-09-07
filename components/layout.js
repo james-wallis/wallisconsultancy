@@ -21,7 +21,7 @@ export default function Layout({ children, pageTitle, links }) {
       </Container>
       <div className="flex flex-col flex-1 justify-end">
         <Contact />
-        <Footer />
+        <Footer links={links} />
       </div>
     </div>
   );
@@ -33,5 +33,7 @@ Layout.propTypes = {
   links: PropTypes.arrayOf(PropTypes.exact({
     title: PropTypes.string,
     href: PropTypes.string,
+    navigation: PropTypes.bool,
+    footer: PropTypes.bool,
   })).isRequired,
 };

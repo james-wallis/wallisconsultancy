@@ -42,5 +42,7 @@ Header.propTypes = {
   links: PropTypes.arrayOf(PropTypes.exact({
     title: PropTypes.string,
     href: PropTypes.string,
+    navigation: PropTypes.bool,
+    footer: PropTypes.bool,
   })).isRequired,
 };
