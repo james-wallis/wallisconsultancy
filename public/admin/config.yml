@@ -49,6 +49,7 @@ collections:
       - label: "Image"
         name: "image"
         widget: "image"
+        required: false
       - label: "Display in Navigation Bar?"
         name: "navigation"
         widget: "boolean"
