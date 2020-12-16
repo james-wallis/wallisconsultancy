@@ -1,6 +1,6 @@
 ---
 title: McKenzie Friend
-image: /images/mike-wallis-head-new.jpeg
+image: mike-wallis-head-new.jpeg
 navigation: true
 ---
 Some people choose to represent themselves at court, rather than instructing a solicitor or barrister. As a result they are entitled to the reasonable assistance of a friend (known as a McKenzie Friend). I can be that McKenzie Friend for you. More and more people are conducting their own cases in court, without a solicitor or barrister, often because they cannot afford lawyers’ fees. Legal Aid to pay these fees is also becoming harder to get.
