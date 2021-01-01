@@ -2,7 +2,7 @@
 title: Mediation Process
 navigation: true
 ---
-Once I have confirmation that parties wish to proceed with mediation and an email address for each party then I will ask each party to sign and return to me an Agreement to Mediate form including full contact details which will be kept confidential. 
+Once I have confirmation that parties wish to proceed with mediation and provided with an email address for each party then I will ask each party to sign and return to me an Agreement to Mediate form including full contact details which will be kept confidential. 
 
 Once the Agreement to Mediate form is received back I will then have separate confidential conversations with each party to get the background to the situation, discuss the mediation process and the way forward. 
 
