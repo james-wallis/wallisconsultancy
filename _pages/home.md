@@ -3,7 +3,7 @@ title: Home
 image: stress.jpg
 navigation: true
 ---
-If you are in dispute do you want:
+If you live in Dacorum and are in dispute, do you want:
 
 * A day in court,
 * Continued disagreement,
@@ -13,7 +13,7 @@ If you are in dispute do you want:
 
 A mutually agreed solution with peace of mind and the potential for an improved relationship?
 
-My experience, particularily as a family magistrate, is that mediation is by far the better way.
+My experience, particularly as a family magistrate, is that mediation is by far the better way.
 
 If you agree then **let me try to mediate for you**.
 
