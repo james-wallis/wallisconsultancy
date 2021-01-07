@@ -10,7 +10,7 @@ Mediation is a voluntary process conducted confidentially in which I assist part
 
 Workplace Mediation can help settle conflict between staff and between staff and management or within management.
 
-Neighbourhood Mediation is helpful when neighbours or groups within a community are not able agree on an issue. Its use can stop matters getting out of control.
+Mediation is helpful when Neighbours or Groups within a community are not able agree on an issue. Its use can stop matters getting out of control.
 
 Family mediation can help you and your ex to work out an agreement about issues such as arrangements for children after you break up, child maintenance payments or a financial settlement.
 
@@ -18,4 +18,4 @@ Mediation can also be useful to help with other issues you might face, such as y
 
 Any agreement reached through mediation, whether verbal or written is not legally binding but it is more likely to succeed as it has not been imposed on the parties.
 
-**If you live in Hemel Hempstead or Berkhamsted then contact me to discuss your needs.**
+**If you live in Hemel Hempstead, Tring or Berkhamsted then contact me to discuss your needs.**
