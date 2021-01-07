@@ -4,13 +4,9 @@ image: mediation.jpg
 navigation: true
 footer: false
 ---
-The service is available for workplace mediation, neighbourhood mediation and family mediation in Dacorum. Mediation can be face to face or online using Zoom and will be during the Covid-19 pandemic.
+The service is available for family mediation in Dacorum. This can be face to face or online using Zoom and will be during the Covid-19 pandemic.
 
 Mediation is a voluntary process conducted confidentially in which I assist parties in working towards a negotiated agreement of a dispute or difference.
-
-Workplace Mediation can help settle conflict between staff and between staff and management or within management.
-
-Mediation is helpful when Neighbours or Groups within a community are not able agree on an issue. Its use can stop matters getting out of control.
 
 Family mediation can help you and your ex to work out an agreement about issues such as arrangements for children after you break up, child maintenance payments or a financial settlement.
 
