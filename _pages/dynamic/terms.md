@@ -17,7 +17,7 @@ The following terms constitute the Terms of Business (the "Terms of Business") o
    1. I will carry out your instructions in accordance with applicable professional standards and act in your best interests at all times.
 3. **Scope and basis of our work**
 
-   1. The consultancy service that I will offer relates to mediation or acting as a McKenzie Friend.
+   1. The consultancy service that I will offer relates to mediation or acting as a McKenzie Friend for residents living within the Borough of Dacorum, Herts. 
    2. I may be required to hold and process information about your personal circumstances. In consequence it will be necessary for you, and you agree, to provide me with details of these and such other information and documents that I may specifically request and are necessary to act for you.
    3. I will rely on the information and documents that you provide me with as being true, correct and complete. I will not audit, test or check such information or documents except where this is inconsistent with my obligations under the law. You should let me know immediately of any changes that might affect the service and advice I provide for you.
    4. You will provide all information reasonably requested by Wallis Consultancy in order to act for you.
