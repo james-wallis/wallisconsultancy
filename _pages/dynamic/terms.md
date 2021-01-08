@@ -5,11 +5,11 @@ footer: true
 ---
 ### Terms and Conditions
 
-The following terms constitute the Terms of Business (the "Terms of Business") of Michael Anthony Wallis trading as Wallis Consultancy to provide services as described below. They will apply to all transactions between both parties, unless varied in writing.
+The following terms constitute the Terms of Business (the "Terms of Business") of Michael Anthony Wallis trading as Wallis Family Mediation to provide services as described below. They will apply to all transactions between both parties, unless varied in writing.
 
 1. **Interpretation**
 
-   1. For the purposes of these Terms of Business: references to "I" and 'me' refers to Wallis Consultancy.
+   1. For the purposes of these Terms of Business: references to "I" and 'me' refers to Wallis Family Mediation.
    2. References to "you" and "your" are to the person or persons to whom our Terms of Business is addressed.
    3. "consultancy services" means the services to be provided in accordance with these Terms of Business.
 2. **Conduct**
@@ -20,7 +20,7 @@ The following terms constitute the Terms of Business (the "Terms of Business") o
    1. The consultancy service that I will offer relates to mediation or acting as a McKenzie Friend for residents living within the Borough of Dacorum, Herts. 
    2. I may be required to hold and process information about your personal circumstances. In consequence it will be necessary for you, and you agree, to provide me with details of these and such other information and documents that I may specifically request and are necessary to act for you.
    3. I will rely on the information and documents that you provide me with as being true, correct and complete. I will not audit, test or check such information or documents except where this is inconsistent with my obligations under the law. You should let me know immediately of any changes that might affect the service and advice I provide for you.
-   4. You will provide all information reasonably requested by Wallis Consultancy in order to act for you.
+   4. You will provide all information reasonably requested by Wallis Family Mediation in order to act for you.
 4. **Communication**
 
    1. Unless otherwise instructed, I will communicate with you by e-mail or at your home address, normally by letter sent by normal postal services or, where appropriate, courier services.
