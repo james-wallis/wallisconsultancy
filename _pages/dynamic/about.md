@@ -14,8 +14,4 @@ Please let me know how I can help you by completing the contact form or by sendi
 
 I look forward to hearing from you and working with you.
 
-Mike Wallis
-
-Wallis Consultancy
-
-BSc (Hons), FCIB, CeMAP
+Mike Wallis BSc (Hons), FCIB
