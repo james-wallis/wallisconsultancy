@@ -11,11 +11,11 @@ footer: true
 
 2. **Who are we?**
 
-  Wallis Family Mediation is the data controller (contact details below). This means it decides how your personal data is processed and for what purposes.
+Wallis Family Mediation is the data controller (contact details below). This means it decides how your personal data is processed and for what purposes.
 
 3. **How do we process your personal data?**
 
-  Wallis Consultancy complies with its obligations under the “GDPR” by keeping personal data up to date; by storing and destroying it securely; by not collecting or retaining excessive amounts of data; by protecting personal data from loss, misuse, unauthorised access and disclosure and by ensuring that appropriate technical measures are in place to protect personal data.
+  Wallis Family Mediation complies with its obligations under the “GDPR” by keeping personal data up to date; by storing and destroying it securely; by not collecting or retaining excessive amounts of data; by protecting personal data from loss, misuse, unauthorised access and disclosure and by ensuring that appropriate technical measures are in place to protect personal data.
 
   We may use your personal data for the following purposes: –
 
