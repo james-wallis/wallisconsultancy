@@ -11,7 +11,7 @@ footer: true
 
 2. **Who are we?**
 
-  Wallis Consultancy is the data controller (contact details below). This means it decides how your personal data is processed and for what purposes.
+  Wallis Family Mediation is the data controller (contact details below). This means it decides how your personal data is processed and for what purposes.
 
 3. **How do we process your personal data?**
 
@@ -27,7 +27,7 @@ footer: true
 
 4. **What is the legal basis for processing your personal data?**
 
-WallisFamilyMediation is the data controller (contact details below). This means it decides how your personal data is processed and for what purposes.
+Wallis Family Mediation is the data controller (contact details below). This means it decides how your personal data is processed and for what purposes.
 
 ```
 * So that we can carry out your instructions to us.
@@ -51,7 +51,7 @@ WallisFamilyMediation is the data controller (contact details below). This means
 * The right to request that WallisFamilyMediation corrects any personal data if it is found to be inaccurate or out of date;
 * The right to request your personal data is erased where it is no longer necessary for Wallis Consultancy to retain such data;
 * The right to withdraw your consent to the processing at any time
-* The right to request that WallisFamilyMediation transmit that data directly to another data controller,
+* The right to request that Wallis Family Mediation transmit that data directly to another data controller,
 * The right, where there is a dispute in relation to the accuracy or processing of your personal data, to request that a restriction is placed on   further processing;
 * The right to object to the processing of personal data,
 *   The right to lodge a complaint with the Information Commissioners Office.
@@ -63,6 +63,6 @@ WallisFamilyMediation is the data controller (contact details below). This means
 
 9. **Contact Details**
 
-  To exercise all relevant rights, queries of complaints please in the first instance contact Data Compliance at Wallis FamilyMediation, Brynhyfryd, Vicarage Road, Potten End, Hertfordshire, HP4 2QZ or by email to mw@wallisfamilymediation.co.uk
+  To exercise all relevant rights, queries of complaints please in the first instance contact Data Compliance at Wallis Family Mediation, Brynhyfryd, Vicarage Road, Potten End, Hertfordshire, HP4 2QZ or by email to mw@wallisfamilymediation.co.uk
 
   You can contact the Information Commissioners Office on 0303 123 1113, via the contact form on their website or at the Information Commissioner’s Office, Wycliffe House, Water Lane, Wilmslow, Cheshire. SK9 5AF.
