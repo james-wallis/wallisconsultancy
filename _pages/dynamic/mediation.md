@@ -1,5 +1,5 @@
 ---
-title: "Mediation "
+title: "Areas of Mediation "
 image: mediation.jpg
 navigation: true
 footer: false
