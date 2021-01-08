@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wallisconsultancy.co.uk/sitemap.xml
+Sitemap: https://wallisfamilymediation.co.uk/sitemap.xml
