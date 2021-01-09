@@ -21,6 +21,7 @@ module.exports = {
   ],
   ignorePatterns: [
     'out',
+    'next.config.js',
   ],
   rules: {
     'react/react-in-jsx-scope': 'off',
