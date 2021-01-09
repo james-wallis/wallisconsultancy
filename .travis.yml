@@ -13,7 +13,6 @@ deploy:
   skip_cleanup: true
   github_token: $github_token
   local_dir: out
-  fqdn: wallisfamilymediation.co.uk
   on:
     branch: master
 notifications:
