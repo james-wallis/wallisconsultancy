@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "npm run eslint && next build",
     "start": "next start",
     "export": "next export",
     "eslint": "eslint ."

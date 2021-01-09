@@ -16,7 +16,7 @@ export default function DynamicLayout({
         canonical={canonical}
         openGraph={{
           url: canonical,
-          title: `${title} | Wallis Consultancy`,
+          title: `${title} | Wallis Family Mediation`,
         }}
       />
       {image

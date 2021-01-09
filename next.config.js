@@ -10,7 +10,7 @@ const {
 } = process.env;
 
 const env = {
-  CANONICAL_URL: 'https://wallisconsultancy.co.uk',
+  CANONICAL_URL: 'https://wallisfamilymediation.co.uk',
   EMAIL_JS_SERVICE,
   EMAIL_JS_TEMPLATE,
   EMAIL_JS_USER,

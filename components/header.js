@@ -23,7 +23,7 @@ export default function Header({ links }) {
               </picture>
             </div>
             <div className="w-10/12">
-              <h1 className="text-2xl sm:text-3xl font-light font-lato">Wallis Consultancy</h1>
+              <h1 className="text-2xl sm:text-3xl font-light font-lato">Wallis Family Mediation</h1>
               <p className="text-gray-333 text-sm">
                 A
                 <em className="text-black"> personal </em>

@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to wallisconsultancy.co.uk 👋</h1>
+<h1 align="center">Welcome to wallisfamilymediation.co.uk 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img alt="Travis Build" src="https://travis-ci.com/james-wallis/wallisconsultancy.svg?token=DMsS4JoCUSe88oxSzNdL&branch=master" />
@@ -7,9 +7,9 @@
   </a>
 </p>
 
-> Website for Wallis Consultancy - Written using Next.js and hosted on GitHub Pages
+> Website for Wallis Family Mediation - Written using Next.js and hosted on GitHub Pages
 
-### 🏠 [Homepage](https://wallisconsultancy.co.uk)
+### 🏠 [Homepage](https://wallisfamilymediation.co.uk)
 
 ## Details
 * Written in React.js with [Next.js](https://nextjs.org/) to generate static files.
