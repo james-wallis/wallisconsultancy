@@ -7,7 +7,11 @@ const {
   EMAIL_JS_USER,
   CAPTCHA_SITE_KEY,
   GTAG,
+  ON_GITHUB_PAGES,
 } = process.env;
+
+const basePath = ON_GITHUB_PAGES ? '/wallisconsultancy' : '';
+const assetPrefix = ON_GITHUB_PAGES ? '/wallisconsultancy/' : '';
 
 const env = {
   CANONICAL_URL: 'https://wallisfamilymediation.co.uk',
@@ -31,7 +35,7 @@ module.exports = withPlugins([
   }],
   {
     env,
-    basePath: process.env.ON_GITHUB_PAGES ? '/wallisconsultancy' : '',
-    assetPrefix: process.env.ON_GITHUB_PAGES ? '/wallisconsultancy/' : '',
+    basePath,
+    assetPrefix,
   },
 ]);
