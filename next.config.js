@@ -31,5 +31,7 @@ module.exports = withPlugins([
   }],
   {
     env,
+    basePath: process.env.ON_GITHUB_PAGES ? '/wallisconsultancy' : '',
+    assetPrefix: process.env.ON_GITHUB_PAGES ? '/wallisconsultancy/' : '',
   },
 ]);
