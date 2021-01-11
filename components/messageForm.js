@@ -57,7 +57,9 @@ export default function MessageForm() {
         } else {
           setFormSubmitted({ title: 'Unexpected status code returned from EmailJS, try again later', paragraph: 'Please contact Mike either by phone or email.' });
         }
-      }, () => {
+      }, (err) => {
+        // eslint-disable-next-line no-console
+        console.log(err);
         setFormSubmitted({ title: 'Error sending message, try again later', paragraph: 'Please contact Mike either by phone or email.' });
       });
   };
