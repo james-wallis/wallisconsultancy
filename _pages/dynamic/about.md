@@ -1,6 +1,6 @@
 ---
 title: About Mike
-image: mike-wallis2.jpg
+image: f7214052-95e6-4188-b1a4-8dca6e9ec926.jpeg
 navigation: true
 footer: false
 ---
