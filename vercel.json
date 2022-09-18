@@ -1,0 +1,6 @@
+{
+  "redirects": [
+      { "source": "/github", "destination": "https://github.com/james-wallis/wallisconsultancy" },
+      { "source": "/config.yml", "destination": "/admin/config.yml" }
+  ]
+}
