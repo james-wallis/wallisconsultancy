@@ -7,7 +7,7 @@ footer: true
 
 1. **Your Personal Data - What is it?**
 
-  Personal data relates to a living individual who can be identified from that data. Identification can be by the information alone or in conjunction with any other information in the data controller’s possession or likely to come into such possession. The processing of personal data is governed by the General Data Protection Regulation (the “GDPR”).
+ Personal data relates to a living individual who can be identified from that data. Identification can be by the information alone or in conjunction with any other information in the data controller’s possession or likely to come into such possession. The processing of personal data is governed by the General Data Protection Regulation (the “GDPR”).
 
 2. **Who are we?**
 
@@ -15,9 +15,9 @@ Wallis Family Mediation is the data controller (contact details below). This mea
 
 3. **How do we process your personal data?**
 
-  Wallis Family Mediation complies with its obligations under the “GDPR” by keeping personal data up to date; by storing and destroying it securely; by not collecting or retaining excessive amounts of data; by protecting personal data from loss, misuse, unauthorised access and disclosure and by ensuring that appropriate technical measures are in place to protect personal data.
+Wallis Family Mediation complies with its obligations under the “GDPR” by keeping personal data up to date; by storing and destroying it securely; by not collecting or retaining excessive amounts of data; by protecting personal data from loss, misuse, unauthorised access and disclosure and by ensuring that appropriate technical measures are in place to protect personal data.
 
-  We may use your personal data for the following purposes: –
+ I may use your personal data for the following purposes: –
 
 ```
 * To enable us to take forward your instructions.
@@ -36,15 +36,15 @@ Wallis Family Mediation is the data controller (contact details below). This mea
 
 5. **Sharing your personal data**
 
-  Your personal data will be treated as strictly confidential and will only be shared with your express consent.
+Your personal data will be treated as strictly confidential and will only be shared with your express consent.
 
 6. **How long do we keep your personal data?**
 
-  We keep data for 6 months from the date that your involvement with the consultancy ceases.
+ I keep data for 6 months from the date that your involvement with the consultancy ceases.
 
 7. **Your rights and your personal data**
 
-  Unless subject to an exemption under the GDPR, you have the following rights with respect to your personal data: –
+Unless subject to an exemption under the GDPR, you have the following rights with respect to your personal data: –
 
 ```
 * The right to request a copy of your personal data which Wallis Consultancy holds about you:
@@ -59,10 +59,10 @@ Wallis Family Mediation is the data controller (contact details below). This mea
 
 8. **Further processing**
 
-  If we wish to use your personal data for a new purpose, not covered by this Data Privacy Notice, then we will provide you with a new notice explaining this new use prior to commencing the processing and setting out the relevant purposes and processing conditions. Where and whenever necessary, we will seek your prior consent to the new processing.
+If I wish to use your personal data for a new purpose, not covered by this Data Privacy Notice, then I will provide you with a new notice explaining this new use prior to commencing the processing and setting out the relevant purposes and processing conditions. Where and whenever necessary, I will seek your prior consent to the new processing.
 
 9. **Contact Details**
 
-  To exercise all relevant rights, queries of complaints please in the first instance contact Data Compliance at Wallis Family Mediation, Brynhyfryd, Vicarage Road, Potten End, Hertfordshire, HP4 2QZ or by email to mw@wallisfamilymediation.co.uk
+To exercise all relevant rights, queries of complaints please in the first instance contact Data Compliance at Wallis Family Mediation, Brynhyfryd, Vicarage Road, Potten End, Hertfordshire, HP4 2QZ or by email to mw@wallisfamilymediation.co.uk
 
-  You can contact the Information Commissioners Office on 0303 123 1113, via the contact form on their website or at the Information Commissioner’s Office, Wycliffe House, Water Lane, Wilmslow, Cheshire. SK9 5AF.
+You can contact the Information Commissioners Office on 0303 123 1113, via the contact form on their website or at the Information Commissioner’s Office, Wycliffe House, Water Lane, Wilmslow, Cheshire. SK9 5AF.
