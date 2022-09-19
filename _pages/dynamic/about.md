@@ -4,9 +4,7 @@ image: f7214052-95e6-4188-b1a4-8dca6e9ec926.jpeg
 navigation: true
 footer: false
 ---
-I am a retired magistrate and 
-
-senior banker with substantial experience in mediation, acting as a McKenzie Friend and in business support. I am personable and able to communicate easily at all levels.
+I am a retired magistrate and senior banker with substantial experience in mediation, acting as a McKenzie Friend and in business support. I am personable and able to communicate easily at all levels.
 
 Having worked within the family court judiciary for over twenty years I have gained a valuable insight into how the family court system operates. As such I am particularly highly regarded in family mediation but also with experience in neighbourhood and workplace mediation. 
 
