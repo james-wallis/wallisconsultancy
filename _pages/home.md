@@ -3,7 +3,7 @@ title: Home
 image: stress.jpg
 navigation: true
 ---
-If you live in Dacorum and are having a difficult family situation, do you want:
+If you live in Dacorum and are having a difficult family situation, do you want to resolve it or have:
 
 * A day in court,
 * Continued disagreement,
