@@ -1,7 +1,7 @@
 ---
 title: Terms and Conditions
-navigation: false
-footer: true
+navigation: true
+footer: false
 ---
 ### Terms and Conditions
 
