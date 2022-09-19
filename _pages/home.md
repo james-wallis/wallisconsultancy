@@ -18,5 +18,3 @@ My experience, particularly as a family magistrate, is that mediation is by far 
 If you agree then **let me try to mediate for you**.
 
 **[Click here to find out where I can help](/mediation)**
-
-If you decide to go to court and can't afford a solicitor I could act as your **[McKenzie Friend](/mckenzie-friend)**
