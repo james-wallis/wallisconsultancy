@@ -4,7 +4,7 @@ image: mediation.jpg
 navigation: true
 footer: false
 ---
-I am available for family mediation in Dacorum which can be face to face or online using Zoom.
+I am available for Family Mediation in Berkhamsted, Hemel Hempstead and Tring and which can be face to face or online using Zoom.
 
 Mediation is a voluntary process conducted confidentially in which I assist the parties in working towards agreement of a dispute or difference.
 
