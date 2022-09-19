@@ -24,11 +24,11 @@ The following terms constitute the Terms of Business (the "Terms of Business") o
 4. **Communication**
 
    1. Unless otherwise instructed, I will communicate with you by e-mail or at your home address, normally by letter sent by normal postal services or, where appropriate, courier services.
-5. **Fees**
-
-   1. You agree to pay me a fee relative to the service taken.
-
-      Mediation: Initial Meeting £65 each party to be paid in advance of the session. Round Table or Shuttle Meeting £65 each party per hour to be paid within seven days of the end of session by payment to my bank account, cheque or cash.
+5. **Fees**\
+   \
+   Initial conversation FREE\
+   Initial Meeting with each party £50 each to be paid in advance of the session. \
+   Round Table or Shuttle Meeting £130 lasting up to 2 hours usually to be shared equally and paid within seven days of the end of the meeting by payment to my bank account, cheque or cash.
 6. **Data Protection Act 2018**
 
    1. During the period of our engagement I may request information about your personal and financial situation from you.
