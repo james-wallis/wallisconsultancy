@@ -27,8 +27,8 @@ The following terms constitute the Terms of Business (the "Terms of Business") o
 5. **Fees**\
    \
    Initial conversation FREE\
-   Initial Meeting with each party £50 each to be paid in advance of the session. \
-   Round Table or Shuttle Meeting £130 lasting up to 2 hours usually to be shared equally and paid within seven days of the end of the meeting by payment to my bank account, cheque or cash.
+   Initial Meeting with each party £120 per  person to be paid in advance of the session\
+   Round Table or Shuttle Meeting lasting up to 2 hours £180 per person and paid prior to the meeting 
 6. **Data Protection Act 2018**
 
    1. During the period of our engagement I may request information about your personal and financial situation from you.
