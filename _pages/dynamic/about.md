@@ -14,7 +14,7 @@ C﻿lients' have said;
 
 'The mediator had the gravitas to have a balanced/unbiased approach which only comes with experience' 
 
-'Both parties given equal time to air their views'ease'
+'Both parties given equal time to air their views'
 
 Let me know how I can help YOU by completing the contact form or by sending an email with a brief description of your situation.
 
