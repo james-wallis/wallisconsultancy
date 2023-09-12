@@ -1,6 +1,6 @@
 ---
 title: About Mike
-image: f7214052-95e6-4188-b1a4-8dca6e9ec926.jpeg
+image: mw-photo-2023.jpg
 navigation: true
 footer: false
 ---
@@ -10,14 +10,14 @@ Having worked within the Family Court judiciary for over twenty years I have gai
 
 The Family Court has shown me that the court process should be used only as a last resort and that mediation has an important role in helping parties move forward from conflict and breakdown to agreement and a brighter future.
 
-C﻿lients' have said;
+**C﻿lients' have said;**
 
 'The mediator had the gravitas to have a balanced/unbiased approach which only comes with experience' 
 
 'Both parties given equal time to air their views'
 
-Let me know how I can help YOU by completing the contact form or by sending an email with a brief description of your situation.
+**Let me know how I can help YOU** by completing the contact form or by sending an email with a brief description of your situation.
 
 I look forward to hearing from you and working with you.
 
-Mike Wallis BSc (Hons), FCIB
+Mike Wallis JP, BSc (Hons), FCIB,
