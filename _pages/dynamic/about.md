@@ -1,6 +1,6 @@
 ---
 title: About Mike
-image: f7214052-95e6-4188-b1a4-8dca6e9ec926.jpeg
+image: mw-photo-2023.jpg
 navigation: true
 footer: false
 ---
