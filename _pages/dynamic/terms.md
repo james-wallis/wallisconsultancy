@@ -1,9 +1,9 @@
 ---
-title: Terms and Conditions
+title: Terms and Pricing
 navigation: true
 footer: false
 ---
-### Terms and Conditions
+### Terms and Pricing
 
 The following terms constitute the Terms of Business (the "Terms of Business") of Michael Anthony Wallis trading as Wallis Family Mediation to provide services as described below. They will apply to all transactions between both parties, unless varied in writing.
 
