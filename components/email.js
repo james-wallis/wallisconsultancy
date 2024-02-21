@@ -2,10 +2,10 @@ import { FaEnvelope } from 'react-icons/fa';
 
 export default function Email() {
   return (
-    <a href="mailto:michaelawallis@yahoo.co.uk" className="flex items-center m-2">
+    <a href="mailto:mail@mike-wallis.com" className="flex items-center m-2">
       <FaEnvelope />
       <p className="ml-2">
-        Email: michaelawallis@yahoo.co.uk
+        Email: mail@mike-wallis.com
       </p>
     </a>
   );
