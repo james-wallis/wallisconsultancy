@@ -63,6 +63,6 @@ If I wish to use your personal data for a new purpose, not covered by this Data 
 
 9. **Contact Details**
 
-To exercise all relevant rights, queries of complaints please in the first instance contact Data Compliance at Wallis Family Mediation, Brynhyfryd, Vicarage Road, Potten End, Hertfordshire, HP4 2QZ or by email to michaelawallis@yahoo.co.uk
+To exercise all relevant rights, queries of complaints please in the first instance contact Data Compliance at Wallis Family Mediation, Brynhyfryd, Vicarage Road, Potten End, Hertfordshire, HP4 2QZ or by email to mail@mike-wallis.com
 
 You can contact the Information Commissioners Office on 0303 123 1113, via the contact form on their website or at the Information Commissioner’s Office, Wycliffe House, Water Lane, Wilmslow, Cheshire. SK9 5AF.
