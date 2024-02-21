@@ -10,4 +10,4 @@ If all parties wish to have a joint mediation meeting then this will then be set
 
 At the joint mediation meeting parties will be given uninterrupted time to explain their concerns and affect of the situation on them and others affected by the dispute. Discussion will then take place on finding a mutually agreeable way forward. Any actions would then be set out in a written agreement. 
 
-Fees for this service can be seen in[ Section 5 of Terms and Conditions](https://wallisfamilymediation.co.uk/terms).
+Fees for this service can be seen in [Terms & Pricing](https://wallisfamilymediation.co.uk/terms).
